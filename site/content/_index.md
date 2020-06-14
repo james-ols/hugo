@@ -5,9 +5,9 @@ image: /img/home-jumbotron.jpg
 blurb:
   heading: What is CollectionsBase?
   text: >-
-    CollectionsBase is the product of two decades worth of working with almost
-    all of the collections and records management systems in the UK and beyond. 
-    We provide the public interface for search, engagement and customer
+    CollectionsBase is the product of two decades of working with almost all of
+    the collections and records management systems in the UK and beyond.  We
+    provide the public interface for search, engagement and customer
     relationship management for heritage organisations large and small.
 intro:
   heading: What we offer
@@ -40,5 +40,10 @@ values:
     We have been working as Digital Heritage Consultants since 1998.  We've
     worked with small local volunteer museums, County Councils and UK Government
     departments.
+
+    We are data specialists : building XML and XSLT based pipelines from
+    Collection Management Systems, integrating with GIS systems for historic
+    maps. We provide digital heritage consultancy and support archive and museum
+    consultants throughout the UK.
 ---
 
