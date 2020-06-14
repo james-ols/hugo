@@ -5,10 +5,10 @@ image: /img/cr-large-home.jpg
 blurb:
   heading: What is CollectionsBase?
   text: >-
-    CollectionsBase is the product of two decades of working with almost all of
-    the collection cataloguing systems in the UK and beyond.  We provide the
-    public interface for search, engagement and customer relationship management
-    for heritage organisations large and small.
+    CollectionsBase by Orangeleaf Systems Ltd is the product of two decades of
+    working with almost all of the collection cataloguing systems in the UK and
+    beyond.  We provide the public interface for search, engagement and customer
+    relationship management for heritage organisations large and small.
 intro:
   heading: What we offer
   text: >-
