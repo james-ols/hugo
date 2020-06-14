@@ -9,7 +9,7 @@ blurb:
     working with almost all of the collections and records management systems in
     the UK and beyond.  We provide the public interface for search, engagement
     and customer relationship management for heritage organisations large and
-    small
+    small.
 intro:
   heading: What we offer
   text: >-
