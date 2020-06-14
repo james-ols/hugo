@@ -1,20 +1,38 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
+title: CollectionsBase
+subtitle: 'The platform for Archive, Museum and Archaeology Services'
 image: /img/home-jumbotron.jpg
 blurb:
-    heading: Why Kaldi?
-    text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
+  heading: What is CollectionsBase?
+  text: >-
+    CollectionsBase is the product of nearly two decades worth of development
+    working with almost all of the collections and records management systems in
+    the UK and beyond.  We provide the public interface for search, engagement
+    and customer relationship management for heritage organisations large and
+    small
 intro:
-    heading: "What we offer"
-    text: "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone."
+  heading: What we offer
+  text: >-
+    CollectionsBase is available in various standard builds, all offered as
+    hosted web platforms.
 products:
-    - image: img/illustrations-coffee.svg
-      text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
-    - image: /img/illustrations-coffee-gear.svg
-      text: "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop."
+  - image: img/illustrations-coffee.svg
+    text: >-
+      CollectionsBase Search.  This is the core product, build from WordPress
+      and connecting to the CollectionsBase API and repository.  Featuring one
+      to many services in one aggregation, we can deliver a simple front end
+      search to your Modes or Adlib based collections right up to county and
+      regional aggregations of archive services, HER and museums,
+  - image: /img/illustrations-coffee-gear.svg
+    text: >-
+      CollectionsBase Reader Order Management.  This is our unique Customer
+      Relationship Management product developed over many years with UK County
+      Record Offices and Archives.  
 values:
-    heading: Our values
-    text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.
+  heading: Consultancy
+  text: >-
+    We have been working as Digital Heritage Consultants since 1998.  We've
+    worked with small local volunteer museums right, through County Councils and
+    with UK Government departments.
 ---
 
