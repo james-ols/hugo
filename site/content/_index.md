@@ -45,5 +45,9 @@ values:
     Collection Management Systems, integrating with GIS systems for historic
     maps. We provide digital heritage consultancy and support archive and museum
     consultants throughout the UK.
+
+    We can also offer commercial consultancy and development, and provide
+    WordPress and WooCommerce platforms to a number of companies in Shropshire
+    and thoughout the UK.
 ---
 
