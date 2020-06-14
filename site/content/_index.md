@@ -1,5 +1,5 @@
 ---
-title: CollectionsBase by Orangeleaf
+title: CollectionsBase
 subtitle: 'The platform for Archive, Museum and Archaeology Services'
 image: /img/cr-large-home.jpg
 blurb:
