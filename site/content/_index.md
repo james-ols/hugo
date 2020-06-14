@@ -17,16 +17,23 @@ intro:
 products:
   - image: img/illustrations-coffee.svg
     text: >-
-      CollectionsBase Search.  This is the core product, build from WordPress
-      and connecting to the CollectionsBase API and repository.  Featuring one
-      to many services in one aggregation, we can deliver a simple front end
-      search to your Modes or Adlib based collections right up to county and
-      regional aggregations of archive services, HER and museums,
+      CollectionsBase Search.  Built from WordPress and connecting to the
+      CollectionsBase API and repository.  Featuring one to many services in one
+      aggregation, we can deliver a simple front end search to your Modes or
+      Adlib based collections right up to county and regional aggregations of
+      archive services, HER and museums. GIS historic maps, interactive timeline
+      view, gallery view, online exhibitions. Extend with e-Commerce shop,
+      connections to Civica and Capita council gateways, events management with
+      Culture24 and ticket sales.
   - image: /img/illustrations-coffee-gear.svg
     text: >-
       CollectionsBase Reader Order Management.  This is our unique Customer
       Relationship Management product developed over many years with UK County
       Record Offices and Archives.  
+
+      Provides Quotation Builder, connection to Civica and Capita council
+      gateways with reconcilliation, document advance ordering, search room
+      booking, reader tickets and integration with ARA Card.
 values:
   heading: Consultancy
   text: >-
