@@ -44,6 +44,6 @@ values:
 
     We can also offer commercial consultancy and development, and provide
     WordPress and WooCommerce platforms to a number of companies in Shropshire
-    and thoughout the UK.
+    and throughout the UK.
 ---
 
