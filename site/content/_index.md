@@ -1,6 +1,6 @@
 ---
 title: CollectionsBase
-subtitle: 'The platform for Archive, Museum and Archaeology Services'
+subtitle: 'The Archive, Museum and Archaeology Services platform'
 image: /img/cr-large-home.jpg
 blurb:
   heading: What is CollectionsBase?
