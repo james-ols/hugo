@@ -1,7 +1,7 @@
 ---
 title: CollectionsBase
 image: /img/products-jumbotron.jpg
-heading: 'The Archives, Museums and Archeology platform'
+heading: 'The Archives, Museums and Archaeology platform'
 description: >-
   CollectionsBase provides public access to the records of over 100
   organisations large and small.
@@ -9,17 +9,19 @@ intro:
   blurbs:
     - image: /img/illustrations-coffee.svg
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+        CollectionsBase Core.  Single integration with your Collection
+        Management System.  Pre-built pipelines available for: Modes, CALM,
+        Adlib, Mimsy, EMu, AtoM, MuseumPlus, MicroMusee. Standard
+        CollectionsBase Showcase template, with your logo, brand identity and
+        colour scheme. Collections search listing, interactive gallery and
+        interactive timeline. WordPress or headless CMS via Hugo / Netlify.
     - image: /img/illustrations-coffee-gear.svg
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        CollectionsBase Complete. Single or aggregation from Modes, CALM, Adlib,
+        Mimsy, EMu, AtoM, MuseumPlus, MicroMusee. Bespoke template to match your
+        existing website, or alternatively we can provide the complete solution
+        for your service. Can include WooCommerce e-commerce to standard
+        gateways, Culture24 Events plugin, ticketing
     - image: /img/illustrations-tutorials.svg
       text: >
         Love a great cup of coffee, but never knew how to make one? Bought a
@@ -34,12 +36,10 @@ intro:
         space where you can hang out with fellow coffee lovers and learn about
         coffee making techniques. All of the artwork on display there is for
         sale. The full price you pay goes to the artist.
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+  heading: 'The Archives, Museums and Archaeology platform'
+  description: >-
+    CollectionsBase provides public access to the records of over 100
+    organisations large and small.
 main:
   heading: Great coffee with no compromises
   description: >
@@ -57,14 +57,8 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 testimonials:
-  - author: Elisabeth Kaurismäki
-    quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
-    quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
+  - author: BCH
+    quote: Black Country History testimonial
 full_image: /img/products-full-width.jpg
 pricing:
   heading: Upfront and annual fees
@@ -73,26 +67,25 @@ pricing:
     customisation for the Customer Relationship Management and Council Payment
     gateway connectors is always required.
   plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
+    - description: Perfect for .
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
-      price: '50'
-    - description: 'Great for avid drinkers, java-nsoving couples and bigger crowds'
+        - XSLT
+      plan: Core
+      price: XX
+    - description: Great for ...
       items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
+        - XSLT
+      plan: Complete
+      price: XX
+    - description: County Council record office
       items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '?'
+        - Whatever you needs
+      plan: Custom Archives and Regional Aggregations
+      price: XX
+    - description: Reader and Order Management
+      items:
+        - So much functionality it might not fit in here
+      plan: Customer Relationship Management
+      price: XX
 ---
 
