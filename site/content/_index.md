@@ -15,16 +15,20 @@ intro:
 products:
   - image: img/illustrations-coffee.svg
     text: >-
-      The CollectionsBase repository.  We have XSLT based ingest pipelines for:
-      Modes, CALM, Adlib, EMu, MuseumPlus, Micromusee, HBSMR, ARCHES, AtoM and
-      custom XML and SQL datastores.  With one click, the native export from
-      these systems load into CollectionsBase.  No custom CSV required.  Our
-      repository indexes and produces our APIs.
+      The CollectionsBase repository.
+
+      We have XSLT based ingest pipelines for: Modes, CALM, Adlib, EMu,
+      MuseumPlus, Micromusee, HBSMR, ARCHES, AtoM and custom XML and SQL
+      datastores.  With one click, the native export from these systems load
+      into CollectionsBase.  No custom CSV required.  Our repository indexes and
+      produces our APIs.
   - image: /img/illustrations-coffee-gear.svg
     text: >-
-      The CollectionsBase front ends.  We provide search, timeline, geospatial
-      GIS, image gallery, online exhibition, e-commerce, events, ticketing and
-      archive reader CRM systems connected to our CollectionsBase APIs.
+      The CollectionsBase front ends.
+
+      We provide search, timeline, geospatial GIS, image gallery, online
+      exhibition, e-commerce, events, ticketing and archive reader CRM systems
+      connected to our CollectionsBase APIs.
 values:
   heading: Consultancy
   text: >-
