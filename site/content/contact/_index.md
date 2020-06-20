@@ -11,4 +11,4 @@ contact_entries:
 ---
 Please don't hesitate to contact us. We are happy to talk through initial ideas and offer advice if you are working through funding applications or developing your digital strategy.
 
-<h3 class="f4 b lh-title mb2">Get in touch</h3>
+<h3 class="f4 b lh-title mb2">Get in touch on 01743 352000</h3>
