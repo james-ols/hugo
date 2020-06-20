@@ -15,7 +15,7 @@ intro:
 products:
   - image: img/illustrations-coffee.svg
     text: >-
-      The CollectionsBase repository.<br/>
+      The CollectionsBase repository.
 
       We have XSLT based ingest pipelines for: Modes, CALM, Adlib, EMu,
       MuseumPlus, Micromusee, HBSMR, ARCHES, AtoM and custom XML and SQL
@@ -24,7 +24,7 @@ products:
       produces our APIs.
   - image: /img/illustrations-coffee-gear.svg
     text: >-
-      The CollectionsBase front ends.<br/>
+      The CollectionsBase front ends.
 
       We provide search, timeline, geospatial GIS, image gallery, online
       exhibition, e-commerce, events, ticketing and archive reader CRM systems
