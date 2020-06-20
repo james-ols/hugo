@@ -1,13 +1,10 @@
 ---
-title: Our Coffee
-type: products
+title: CollectionsBase
 image: /img/products-jumbotron.jpg
-heading: What we offer
+heading: 'The Archives, Museums and Archeology platform'
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  CollectionsBase provides public access to the records of over 100
+  organisations large and small.
 intro:
   blurbs:
     - image: /img/illustrations-coffee.svg
@@ -70,11 +67,11 @@ testimonials:
       stance on empowering farmers and transparency.
 full_image: /img/products-full-width.jpg
 pricing:
-  heading: Monthly subscriptions
+  heading: Upfront and annual fees
   description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
+    CollectionsBase is available in standard off the shelf builds.  Some
+    customisation for the Customer Relationship Management and Council Payment
+    gateway connectors is always required.
   plans:
     - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
       items:
@@ -98,5 +95,4 @@ pricing:
       plan: Custom
       price: '?'
 ---
-
 
