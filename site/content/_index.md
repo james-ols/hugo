@@ -10,30 +10,23 @@ blurb:
     beyond.  We provide the public interface for search, engagement and customer
     relationship management for heritage organisations large and small.
 intro:
-  heading: What we offer
-  text: >-
-    CollectionsBase is available in various standard builds, as hosted web
-    platforms.
+  heading: How it works
+  text: 'CollectionsBase is a simple, two step process'
 products:
   - image: img/illustrations-coffee.svg
     text: >-
-      CollectionsBase Search.  Built from WordPress and connecting to the
-      CollectionsBase API and repository.  Featuring one to many services in one
-      aggregation, we can deliver a simple front end search to your Modes or
-      Adlib based collections right up to county and regional aggregations of
-      archive services, HER and museums. GIS historic maps, interactive timeline
-      view, gallery view, online exhibitions. Extend with e-Commerce shop,
-      connections to Civica and Capita council gateways, events management with
-      Culture24 and ticket sales.
+      The CollectionsBase repository.  Over two decades, we have created our
+      XSLT based pipelines for: Modes, CALM, Adlib, EMu, MuseumPlus, HBSMR, AtoM
+      and custom XML and SQL datastores.  With one click, the native export from
+      these systems load into CollectionsBase.  No custom CSV required.  Our
+      repository indexes and produces our APIs.
   - image: /img/illustrations-coffee-gear.svg
     text: >-
-      CollectionsBase Reader Order Management.  This is our unique Customer
-      Relationship Management product developed over many years with UK County
-      Record Offices and Archives.  
-
-      Provides Quotation Builder, connection to Civica and Capita council
-      gateways with reconcilliation, document advance ordering, search room
-      booking, reader tickets and integration with ARA Card.
+      The CollectionsBase front ends.  We provide search, timeline, geospatial
+      GIS, image gallery, online exhibition, e-commerce, events, ticketing and
+      archive reader CRM systems connected to our CollectionsBase APIs.This is
+      our unique Customer Relationship Management product developed over many
+      years with UK County Record Offices and Archives. 
 values:
   heading: Consultancy
   text: >-
