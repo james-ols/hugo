@@ -32,14 +32,13 @@ products:
 values:
   heading: Consultancy
   text: >-
-    We have been working as Digital Heritage Consultants since 1998.  We've
-    worked with small local volunteer museums, County Councils and UK Government
-    departments. We provide digital heritage consultancy alongside strategic
-    guidance of archive and museum consultants throughout the UK.
+    We've provided digital heritage consultancy and strategic guidance to small
+    local volunteer museums, County Council archives, UK Government departments
+    and national institutions since 1998. 
 
 
-    We can also offer commercial consultancy and development, and provide
-    WordPress, WooCommerce and bespoke applications to a number of companies in
-    Shropshire and throughout the UK.
+    We offer systems design and development, and provide WordPress, WooCommerce
+    and bespoke applications to a number of companies in Shropshire and
+    throughout the UK.
 ---
 
