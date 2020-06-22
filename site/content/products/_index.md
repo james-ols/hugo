@@ -1,5 +1,5 @@
 ---
-title: CollectionsBase
+title: Products
 image: /img/products-jumbotron.jpg
 heading: 'The Archives, Museums and Archaeology platform'
 description: >-
