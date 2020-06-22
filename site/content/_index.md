@@ -13,7 +13,7 @@ intro:
   heading: How it works
   text: 'CollectionsBase is a simple, two step process'
 products:
-  - image: img/illustrations-coffee.svg
+  - image: /img/cb-dashbaord-onimac.jpg
     text: >-
       The CollectionsBase repository.
 
