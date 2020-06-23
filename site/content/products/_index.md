@@ -41,9 +41,11 @@ intro:
     CollectionsBase provides public access to the records of over 100
     organisations large and small.
 main:
-  heading: Lorum
-  description: |
-    ipsum impsu
+  heading: Product Video
+  description: >
+    A short demonstration of catalogue search, Reader registration and search
+    room booking, reprographics quotation request and geocoded archive records
+    on maps.
   image1:
     alt: fewfefew
     image: /img/products-grid3.jpg
