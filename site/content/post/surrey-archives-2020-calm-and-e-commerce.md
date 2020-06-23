@@ -1,5 +1,5 @@
 ---
-title: 'Surrey Archives 2020 : CALM and E-Commerce'
+title: 'Surrey Archives : CALM and E-Commerce'
 date: 2020-01-09T17:45:51.020Z
 description: >-
   We are pleased to launch the new website for Surrey Archives. The new site
