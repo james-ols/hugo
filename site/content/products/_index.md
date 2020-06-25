@@ -47,11 +47,11 @@ main:
     room booking, reprographics quotation request and geocoded archive records
     on maps.
   image1:
-    alt: fewfefew
-    image: /img/products-grid3.jpg
+    alt: Full geospatial GIS with archaeology findspots and museum objects
+    image: /img/map.jpg
   image2:
-    alt: fewfewfew
-    image: /img/products-grid2.jpg
+    alt: 'IIIF manager, cloud storage and Preservica ingest pipeline'
+    image: /img/iiif.jpg
   image3:
     alt: fewfewfew
     image: /img/products-grid1.jpg
