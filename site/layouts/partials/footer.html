@@ -56,4 +56,24 @@ VAT 709 2483 28 | Registered in England No. 3648762</p></div>
 
 <script src="/app.js"></script>
 <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '3bc718a1-c963-4b4f-8999-79e3ec01a680', f: true }); done = true; } }; })();</script>
-
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+    	"background": "#efefef",
+        "text": "#000000"
+    },
+    "button": {
+      "background": "#f6921e"
+    }
+  },
+  "theme": "edgeless",
+  "content": {
+    "message": "Our website uses some cookies",
+    "dismiss": "Accept",
+    "link": "Read our privacy statement",
+    "href": "/legal"
+  }
+});
+</script>
