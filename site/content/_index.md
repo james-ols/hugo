@@ -17,7 +17,7 @@ products:
     text: >-
       The CollectionsBase repository.
 
-      We have XSLT based pipelines for: Modes, CALM, Adlib, EMu, MuseumPlus,
+      We have import processes for: Modes, CALM, Adlib, EMu, MuseumPlus,
       Micromusee, HBSMR, ARCHES, AtoM and custom XML and SQL datastores.  With
       one click, the native export from these systems load into
       CollectionsBase.  
@@ -25,7 +25,7 @@ products:
     text: >-
       The CollectionsBase front ends.
 
-      We provide search, timeline, geospatial GIS, image gallery, online
+      We provide search, timeline, geospatial mapping, image gallery, online
       exhibition, e-commerce, events, ticketing and archive reader CRM systems
       connected to our CollectionsBase APIs.
 values:
