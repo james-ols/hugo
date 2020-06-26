@@ -60,7 +60,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Body, name: body, widget: object}
+          - {label: Body, name: body, widget: text}
       - file: "site/content/products/_index.md"
         label: "Products Page"
         name: "products"
