@@ -1,23 +1,16 @@
 {{ define "main" }}
 
-<div class="ph3 bg-off-white">
-	<div class="center mw6 pv3">
+{{ partial "short-text" .Params.whoweare}}
 
-		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
+{{ partial "short-text" .Params.privacy}}
 
-		{{ .Content }}
+{{ partial "short-text" .Params.privacy}}
 
-		<div class="flex-ns mb3">
-	        	{{ range .Params.contact_entries }}
-				<div>
-					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-					<p>{{ .text }}</p>
-				</div>
-			{{ end }}
-		</div>
+{{ partial "short-text" .Params.dataprotection}}
 
+{{ partial "short-text" .Params.accessibility}}
 
-	</div>
-</div>
+{{ partial "short-text" .Params.employmentandvalues}}
+
 
 {{ end }}
