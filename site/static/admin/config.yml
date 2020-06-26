@@ -58,19 +58,19 @@ collections: # A list of collections the CMS should be able to edit
         label: "Legal Page"
         name: "legal"
         fields:
-           - {label: "Who we are", name: intro, widget: object, fields: [
+           - {label: "Who we are", name: whoweare, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
-           - {label: "Privacy", name: intro, widget: object, fields: [
+           - {label: "Privacy", name: privacy, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
-           - {label: "Data Protection", name: intro, widget: object, fields: [
+           - {label: "Data Protection", name: dataprotection, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
-           - {label: "Accessibility", name: intro, widget: object, fields: [
+           - {label: "Accessibility", name: accessibility, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
-           - {label: "Employment and values", name: intro, widget: object, fields: [
+           - {label: "Employment and values", name: employmentandvalues, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
       - file: "site/content/products/_index.md"
