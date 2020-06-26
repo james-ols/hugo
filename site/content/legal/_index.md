@@ -1,4 +1,4 @@
 ---
 title: Legals
 ---
-Privacy
+<h2>Who we are</h2>
