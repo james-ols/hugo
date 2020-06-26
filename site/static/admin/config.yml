@@ -54,11 +54,19 @@ collections: # A list of collections the CMS should be able to edit
               - label: Text
                 name: text
                 widget: text
+      - file: "site/content/legal/_index.md"
+        label: "Legal Page"
+        name: "legal"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Body, name: body, widget: object}
       - file: "site/content/products/_index.md"
         label: "Products Page"
         name: "products"
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: Heading, name: heading, widget: string}
           - {label: Description, name: description, widget: string}
@@ -72,6 +80,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "services"
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
           - {label: Image, name: image, widget: image}
           - label: Values
             name: values
