@@ -1,6 +1,7 @@
 ---
 title: Products
-image: /img/products-jumbotron.jpg
+subtitle: 'The Archives, Museums and Archaeology platform'
+image: /img/productsjumbo.jpg
 heading: 'The Archives, Museums and Archaeology platform'
 description: >-
   CollectionsBase provides public access to the records of over 100
