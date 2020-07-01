@@ -12,32 +12,35 @@ intro:
       text: >
         CollectionsBase Core.  Single integration with your Collection
         Management System.  Pre-built pipelines available for: Modes, CALM,
-        Adlib, Mimsy, EMu, AtoM, MuseumPlus, MicroMusee. Standard
-        CollectionsBase Showcase template, with your logo, brand identity and
-        colour scheme. Collections search listing, interactive gallery and
-        interactive timeline. WordPress or headless CMS via Hugo / Netlify.
+        Adlib, Mimsy, EMu, AtoM, MuseumPlus, MicroMusee. Standard layout, with
+        your logo, brand identity and colour scheme. Collections search listing,
+        interactive gallery and interactive timeline. WordPress or headless CMS
+        via Hugo / Netlify.
     - image: /img/illustrations-coffee-gear.svg
       text: >
         CollectionsBase Complete. Single integration from Modes, CALM, Adlib,
         Mimsy, EMu, AtoM, MuseumPlus, MicroMusee. Bespoke template to match your
         existing website, or alternatively we can provide the complete solution
         for your service. Can include WooCommerce e-commerce to standard
-        gateways, Culture24 Events plugin, ticketing
+        gateways, Culture24 Events plugin, ticketing and historic maps.
     - image: /img/illustrations-tutorials.svg
       text: >
-        CollectionsBase County Aggregation.  Provisioned for county council
-        record offices, typically used to provide public access to CALM, and in
-        aggregation with Museums using Modes and HER services using HBSMR or
-        Arches.
+        CollectionsBase County Aggregation.  
+
+        Provisioned for county council record offices, typically used to provide
+        public access to CALM, and in aggregation with Museums using Modes and
+        HER services using HBSMR or Arches. Digital surrogate delivery using
+        Digital Preservation system connections and IIIF.
     - image: /img/illustrations-meeting-space.svg
       text: >
         CollectionsBase CRM : Reader and Order Management.
 
         Our flagship product for county record offices and archives services. 
-        Used within the UK, our solution developed alongside archivists and
-        front of house staff provides:
+        Provides Reader ticket registration, advance document ordering,
+        reprographics quotes, PAYG and subscription access to digital
+        surrogates, search room booking and session management.
          
-  heading: 'The Archives, Museums and Archaeology platform'
+  heading: 'CollectionsBase Core, Complete, Aggregator and Reader Management'
   description: >-
     CollectionsBase provides public access to the records of over 100
     organisations large and small.
