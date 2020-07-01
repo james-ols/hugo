@@ -54,11 +54,31 @@ collections: # A list of collections the CMS should be able to edit
               - label: Text
                 name: text
                 widget: text
+      - file: "site/content/legal/_index.md"
+        label: "Legal Page"
+        name: "legal"
+        fields:
+           - {label: "Who we are", name: whoweare, widget: object, fields: [
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Text", name: "text", widget: "text"}]}
+           - {label: "Privacy", name: privacy, widget: object, fields: [
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Text", name: "text", widget: "text"}]}
+           - {label: "Data Protection", name: dataprotection, widget: object, fields: [
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Text", name: "text", widget: "text"}]}
+           - {label: "Accessibility", name: accessibility, widget: object, fields: [
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Text", name: "text", widget: "text"}]}
+           - {label: "Employment and values", name: employmentandvalues, widget: object, fields: [
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Text", name: "text", widget: "text"}]}
       - file: "site/content/products/_index.md"
         label: "Products Page"
         name: "products"
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: Heading, name: heading, widget: string}
           - {label: Description, name: description, widget: string}
@@ -72,6 +92,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "services"
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
           - {label: Image, name: image, widget: image}
           - label: Values
             name: values
