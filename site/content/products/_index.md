@@ -2,7 +2,7 @@
 title: Products
 subtitle: 'The Archives, Museums and Archaeology platform'
 image: /img/productsjumbo.jpg
-heading: 'The Archives, Museums and Archaeology platform'
+heading: 'CollectionsBase Core, Complete, Aggregator and CRM'
 description: >-
   CollectionsBase provides public access to the records of over 100
   organisations large and small.
