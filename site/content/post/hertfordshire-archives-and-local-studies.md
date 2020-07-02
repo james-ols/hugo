@@ -4,6 +4,7 @@ date: 2018-02-12T17:45:56.523Z
 description: >-
   New archives catalogue search and integrated shop for Hertfordshire Archives
   and Local Studies
+image: /img/herts.jpg
 ---
 We are pleased to announce that we’ve delivered a new CollectionsBase catalogue search for Hertfordshire Archives and Local Studies at  <https://archives.hertfordshire.gov.uk>
 
