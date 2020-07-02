@@ -4,7 +4,7 @@ subtitle: Two decades of experience
 image: /img/aboutjumbotron.jpg
 values:
   - heading: Archives
-    imageUrl: /img/about-shade-grown.jpg
+    imageUrl: /img/denbighshire.jpg
     text: >-
       We help archivists from county record offices, business and institution
       archives solve the challenges of public access to catalogued material.  We

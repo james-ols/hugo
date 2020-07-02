@@ -5,6 +5,7 @@ description: >-
   We are pleased to launch the new website for Surrey Archives. The new site
   uses the existing CALM based collection datasets loaded to our CollectionsBase
   platform for Archives and Museums.
+image: /img/surreyarchives.jpg
 ---
 We are pleased to launch the new website for [Surrey Archives](https://www.surreyarchives.org.uk).
 
