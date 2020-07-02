@@ -1,7 +1,7 @@
 ---
 title: Services
 subtitle: Two decades of experience
-image: /img/about-jumbotron.jpg
+image: /img/aboutjumbotron.jpg
 values:
   - heading: Archives
     imageUrl: /img/about-shade-grown.jpg
