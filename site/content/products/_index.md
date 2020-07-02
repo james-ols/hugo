@@ -68,7 +68,7 @@ testimonials:
       onto the websites and when.
 full_image: /img/product-base-large.jpg
 pricing:
-  heading: Prices
+  heading: Setup and Annual Prices
   description: >-
     CollectionsBase is available in standard off the shelf builds.  Some
     customisation for the Customer Relationship Management and Council Payment
