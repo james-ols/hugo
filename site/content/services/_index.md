@@ -7,13 +7,10 @@ values:
     imageUrl: /img/about-shade-grown.jpg
     text: >-
       We help archivists from county record offices, business and institution
-      archives solve the challenges of public access to catalogued material. 
-      We've advised during service improvements and the building of new
-      facilities, including planning, search room to production automation,
-      barcoding, digitisation and digital preservation.  We've produced crowd
-      source transcription systems, and deliver via our solutions full reader
-      and document management and e-commerce controlled access to digital
-      surrogates.
+      archives solve the challenges of public access to catalogued material.  We
+      advise during service improvements and funding planning for new
+      facilities, through to the production and supply of integrated end-to-end
+      search room and document management solutions.
   - heading: Museums
     imageUrl: /img/about-single-origin.jpg
     text: >-
