@@ -64,31 +64,35 @@ testimonials:
     quote: Black Country History testimonial
 full_image: /img/products-full-width.jpg
 pricing:
-  heading: Upfront and annual fees
+  heading: Prices
   description: >-
     CollectionsBase is available in standard off the shelf builds.  Some
     customisation for the Customer Relationship Management and Council Payment
     gateway connectors is always required.
   plans:
-    - description: Perfect for .
+    - description: Smaller collections single CMS, standard template
       items:
-        - XSLT
+        - Search, interactive gallery and timeline
       plan: Core
-      price: XX
-    - description: Great for ...
+      price_setup: 1250 + VAT
+      price_pa: 295 + VAT
+    - description: Larger collections single CMS, bespoke template.
       items:
-        - XSLT
+        - Search, gallery, timeline, maps, events, IIIF digital surrogates
       plan: Complete
-      price: XX
-    - description: County Council record office
+      price_setup: 4950 + VAT
+      price_pa: 950 + VAT
+    - description: Archive, museum, HER aggregations. County Record Offices
       items:
-        - Whatever you needs
-      plan: Custom Archives and Regional Aggregations
-      price: XX
+        - Upto 2 million records, archive hiearchy, IIIF digital surrogates, e-commerce reprographics; Civica and Capita gateways. Can be purchased via G-Cloud
+      plan: County
+      price_setup: 15500 + VAT
+      price_pa: 2575 + VAT
     - description: Reader and Order Management
       items:
-        - So much functionality it might not fit in here
-      plan: Customer Relationship Management
-      price: XX
+        - Search room booking, management, triplicate tickets; Reader Registration and ARA card integration, quotes and PAYG/subscription access to surrogates 
+      plan: CRM
+      price_setup: 32000 + VAT
+      price_pa: 3000 + VAT
 ---
 
