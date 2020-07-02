@@ -21,7 +21,7 @@ products:
       Micromusee, HBSMR, ARCHES, AtoM and custom XML and SQL databases.  With
       one click, the native export from these systems load into
       CollectionsBase.  
-  - image: /img/illustrations-coffee-gear.svg
+  - image: /img/2020homedevices.jpg
     text: >-
       The CollectionsBase front ends.
 
