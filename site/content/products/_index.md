@@ -57,8 +57,8 @@ main:
     alt: 'IIIF manager, cloud storage and Preservica ingest pipeline'
     image: /img/iiif.jpg
   image3:
-    alt: fewfewfew
-    image: /img/products-grid1.jpg
+    alt: Mosaic image gallery with dynamic search and refinement
+    image: /img/imagemosaicgallery.jpg
 testimonials:
   - author: BCH
     quote: Black Country History testimonial
