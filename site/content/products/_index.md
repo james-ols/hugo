@@ -60,8 +60,8 @@ main:
     alt: Mosaic image gallery with dynamic search and refinement
     image: /img/imagemosaicgallery.jpg
 testimonials:
-  - author: BCH
-    quote: Black Country History testimonial
+  - author: Black Country History community manager
+    quote: The system works well; staff don’t need to be IT wizards and now that the system is all set up and running smoothly, each partner uploads their data on an ‘as and when’ basis so that they are in control of what data goes onto the websites and when.
 full_image: /img/products-full-width.jpg
 pricing:
   heading: Prices
