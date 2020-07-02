@@ -70,9 +70,10 @@ full_image: /img/product-base-large.jpg
 pricing:
   heading: Setup and Annual Prices
   description: >-
-    CollectionsBase is available in standard off the shelf builds.  Some
-    customisation for the Customer Relationship Management and Council Payment
-    gateway connectors is always required.
+    CollectionsBase is available in standard off the shelf builds supplied as a
+    hosted, Software as a Service product.  Some customisation for the Customer
+    Relationship Management and Council Payment gateway connectors is always
+    required.
   plans:
     - description: 'Smaller collections single CMS, standard template'
       items:
