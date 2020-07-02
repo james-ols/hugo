@@ -19,8 +19,7 @@ products:
 
       We have import processes for: Modes, CALM, Adlib, EMu, MuseumPlus,
       Micromusee, HBSMR, ARCHES, AtoM and custom XML and SQL databases.  With
-      one click, the native export from these systems load into
-      CollectionsBase.  
+      one click, the records these systems load into CollectionsBase.  
   - image: /img/2020homedevices.jpg
     text: >-
       The CollectionsBase front ends.
