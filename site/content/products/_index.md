@@ -1,6 +1,6 @@
 ---
 title: Products
-subtitle: 'The Archives, Museums and Archaeology platform'
+subtitle: 'The Archive, Museum and Archaeology platform'
 image: /img/productsjumbo.jpg
 heading: 'CollectionsBase Core, Complete, Aggregator and CRM'
 description: >-
@@ -84,13 +84,13 @@ pricing:
       price_pa: 950 + VAT p/a
     - description: Archive, museum, HER aggregations. County Record Offices
       items:
-        - Upto 2 million records, archive hiearchy, IIIF digital surrogates, e-commerce reprographics; Civica and Capita gateways. Can be purchased via G-Cloud
+        - Upto 2 million records, archival hierarchy, IIIF digital surrogates, e-commerce reprographics; Civica and Capita gateways. Can be purchased via G-Cloud
       plan: County
       price_setup: 15500 + VAT
       price_pa: 2575 + VAT p/a
     - description: Reader and Order Management
       items:
-        - Search room booking, management, triplicate tickets; Reader Registration and ARA card integration, quotes and PAYG/subscription access to surrogates 
+        - Search room booking, management, triplicate tickets; Reader Registration and ARA card integration, quotes and PAYG/subscription access to surrogates. Can be purchased via G-Cloud 
       plan: CRM
       price_setup: 32000 + VAT
       price_pa: 3000 + VAT p/a
