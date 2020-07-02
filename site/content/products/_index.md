@@ -75,24 +75,24 @@ pricing:
         - Search, interactive gallery and timeline
       plan: Core
       price_setup: 1250 + VAT
-      price_pa: 295 + VAT
+      price_pa: 675 + VAT p/a
     - description: Larger collections single CMS, bespoke template.
       items:
         - Search, gallery, timeline, maps, events, IIIF digital surrogates
       plan: Complete
-      price_setup: 4950 + VAT
-      price_pa: 950 + VAT
+      price_setup: 4250 + VAT
+      price_pa: 950 + VAT p/a
     - description: Archive, museum, HER aggregations. County Record Offices
       items:
         - Upto 2 million records, archive hiearchy, IIIF digital surrogates, e-commerce reprographics; Civica and Capita gateways. Can be purchased via G-Cloud
       plan: County
       price_setup: 15500 + VAT
-      price_pa: 2575 + VAT
+      price_pa: 2575 + VAT p/a
     - description: Reader and Order Management
       items:
         - Search room booking, management, triplicate tickets; Reader Registration and ARA card integration, quotes and PAYG/subscription access to surrogates 
       plan: CRM
       price_setup: 32000 + VAT
-      price_pa: 3000 + VAT
+      price_pa: 3000 + VAT p/a
 ---
 
