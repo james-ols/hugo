@@ -61,8 +61,12 @@ main:
     image: /img/imagemosaicgallery.jpg
 testimonials:
   - author: Black Country History community manager
-    quote: The system works well; staff don’t need to be IT wizards and now that the system is all set up and running smoothly, each partner uploads their data on an ‘as and when’ basis so that they are in control of what data goes onto the websites and when.
-full_image: /img/products-full-width.jpg
+    quote: >-
+      The system works well; staff don’t need to be IT wizards and now that the
+      system is all set up and running smoothly, each partner uploads their data
+      on an ‘as and when’ basis so that they are in control of what data goes
+      onto the websites and when.
+full_image: /img/product-base-large.jpg
 pricing:
   heading: Prices
   description: >-
@@ -70,29 +74,35 @@ pricing:
     customisation for the Customer Relationship Management and Council Payment
     gateway connectors is always required.
   plans:
-    - description: Smaller collections single CMS, standard template
+    - description: 'Smaller collections single CMS, standard template'
       items:
-        - Search, interactive gallery and timeline
+        - 'Search, interactive gallery and timeline'
       plan: Core
-      price_setup: 1250 + VAT
       price_pa: 675 + VAT p/a
-    - description: Larger collections single CMS, bespoke template.
+      price_setup: 1250 + VAT
+    - description: 'Larger collections single CMS, bespoke template.'
       items:
-        - Search, gallery, timeline, maps, events, IIIF digital surrogates
+        - 'Search, gallery, timeline, maps, events, IIIF digital surrogates'
       plan: Complete
-      price_setup: 4250 + VAT
       price_pa: 950 + VAT p/a
-    - description: Archive, museum, HER aggregations. County Record Offices
+      price_setup: 4250 + VAT
+    - description: 'Archive, museum, HER aggregations. County Record Offices'
       items:
-        - Upto 2 million records, archival hierarchy, IIIF digital surrogates, e-commerce reprographics; Civica and Capita gateways. Can be purchased via G-Cloud
+        - >-
+          Upto 2 million records, archival hierarchy, IIIF digital surrogates,
+          e-commerce reprographics; Civica and Capita gateways. Can be purchased
+          via G-Cloud
       plan: County
-      price_setup: 15500 + VAT
       price_pa: 2575 + VAT p/a
+      price_setup: 15500 + VAT
     - description: Reader and Order Management
       items:
-        - Search room booking, management, triplicate tickets; Reader Registration and ARA card integration, quotes and PAYG/subscription access to surrogates. Can be purchased via G-Cloud 
+        - >-
+          Search room booking, management, triplicate tickets; Reader
+          Registration and ARA card integration, quotes and PAYG/subscription
+          access to surrogates. Can be purchased via G-Cloud
       plan: CRM
-      price_setup: 32000 + VAT
       price_pa: 3000 + VAT p/a
+      price_setup: 32000 + VAT
 ---
 
