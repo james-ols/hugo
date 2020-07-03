@@ -12,7 +12,7 @@ values:
       facilities, through to the production and supply of integrated end-to-end
       search room and document management solutions.
   - heading: Museums
-    imageUrl: /img/about-single-origin.jpg
+    imageUrl: /img/museum.jpg
     text: >-
       We help curators wrangle the content from their collection management
       systems into web based search, including engaging interfaces for 2D and 3D
