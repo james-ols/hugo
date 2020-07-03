@@ -2,7 +2,7 @@
 title: Products
 subtitle: 'The Archive, Museum and Archaeology platform'
 image: /img/productsjumbo.jpg
-heading: 'CollectionsBase Core, Complete, Aggregator and CRM'
+heading: The CollectionsBase software suite
 description: >-
   CollectionsBase provides public access to the records of over 100
   organisations large and small.
@@ -40,7 +40,7 @@ intro:
         reprographics quotes, PAYG and subscription access to digital
         surrogates, search room booking and session management.
          
-  heading: 'CollectionsBase Core, Complete, Aggregator and Reader Management'
+  heading: The CollectionsBase software suite
   description: >-
     CollectionsBase provides public access to the records of over 100
     organisations large and small.
