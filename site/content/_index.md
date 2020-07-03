@@ -14,13 +14,13 @@ intro:
   text: 'CollectionsBase is a simple, two step process.'
 products:
   - image: /img/2020oneclickimport.jpg
-    heading: Repository
+  heading: Repository
     text: >-
       We have import processes for: Modes, CALM, Adlib, EMu, MuseumPlus,
       Micromusee, HBSMR, Arches, AtoM and custom XML and SQL databases.  With
       one click, the records from these systems load into CollectionsBase.
   - image: /img/2020homedevices.jpg
-  	heading: Interface
+  heading: Interface
     text: >-
       We provide search, timeline, geospatial mapping, image gallery, online
       exhibition, e-commerce, events, ticketing and archive reader CRM systems
