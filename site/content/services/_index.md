@@ -19,8 +19,12 @@ values:
       objects.  We can provide impartial advice about all the different desktop,
       server, cloud and open source Collection Management Systems available.
   - heading: Archaeology
-    imageUrl: /img/about-sustainable-farming.jpg
-    text: |
-      Archaeology
+    imageUrl: /img/her.jpg
+    text: >-
+      We help historic environment record officers get the best public access to
+      their records.  We can advise on various open source systems, and produce
+      full text and geospatial search with complex point, line and polygon based
+      responses diplayed on modern and historic Ordnance Survey maps.  We build
+      crowdsource solutions based around MIDAS and CIDOC CRM standards/
 ---
 
