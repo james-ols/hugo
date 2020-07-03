@@ -57,6 +57,6 @@ accessibility:
   text: We've worked hard to create a new, simpler and more clearly written website. We have a single WCAG2.1 issue with titles in our posts that needs fixing, and we need to fix our backgrounds so they work better with reversed contrast.  
 employmentandvalues:
   heading: Employment
-  text: Modern Slavery Act statement : we don't employ slaves, or pay below the UK adult living wage. All our employees work a standard 37.5 hour week, with good holiday entitlements and benefits.
+  text: Modern Slavery Act statement. We don't employ slaves, or pay below the UK adult living wage. All our employees work a standard 37.5 hour week, with good holiday entitlements and benefits.
 ---
 
