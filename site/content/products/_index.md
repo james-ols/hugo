@@ -8,7 +8,7 @@ description: >-
   organisations large and small.
 intro:
   blurbs:
-    - image: /img/illustrations-coffee.svg
+    - image: /img/tma-1024x725.jpg
       text: >
         CollectionsBase Core.  Single integration with your Collection
         Management System.  Pre-built pipelines available for: Modes, CALM,
@@ -16,14 +16,14 @@ intro:
         your logo, brand identity and colour scheme. Collections search listing,
         interactive gallery and interactive timeline. WordPress or headless CMS
         via Hugo / Netlify.
-    - image: /img/illustrations-coffee-gear.svg
+    - image: /img/herts-768x584.jpg
       text: >
         CollectionsBase Complete. Single integration from Modes, CALM, Adlib,
         Mimsy, EMu, AtoM, MuseumPlus, MicroMusee. Bespoke template to match your
         existing website, or alternatively we can provide the complete solution
         for your service. Can include WooCommerce e-commerce to standard
         gateways, Culture24 Events plugin, ticketing and historic maps.
-    - image: /img/illustrations-tutorials.svg
+    - image: /img/esp-cb7.jpg
       text: >
         CollectionsBase County Aggregation.  
 
@@ -31,14 +31,16 @@ intro:
         public access to CALM, and in aggregation with Museums using Modes and
         HER services using HBSMR or Arches. Digital surrogate delivery using
         Digital Preservation system connections and IIIF.
-    - image: /img/illustrations-meeting-space.svg
+    - image: /img/rom.jpg
       text: >
         CollectionsBase CRM : Reader and Order Management.
 
         Our flagship product for county record offices and archives services. 
         Provides Reader ticket registration, advance document ordering,
         reprographics quotes, PAYG and subscription access to digital
-        surrogates, search room booking and session management.
+        surrogates, search room booking and session management. Full end to end
+        document production using our own Android Zebra based barcode
+        application.
          
   heading: The CollectionsBase software suite
   description: >-
