@@ -11,19 +11,19 @@ One main advantage of an Orangeleaf Systems CollectionsBase approach is that arc
 
 Our CollectionsBase public facing discovery service shares the core features of CalmView, namely All Text and Advanced search and archive hierarchical view. However, it adds:
 
-* \    Facet search refinement on indexes and access points
-* \    Results as an image listing and mosaic gallery
-* \    Connections to IIIF high resolution and Universal Viewer for images and AV content
-* \    Reprographic quotation requests, wishlists and document ordering
-* \    GIS map display of results with historic maps
-* \    Interactive timeline view of search results
-* \    User generated comments, stories and discussions against archive records
-* \    User tagging of records with keywords
-* \    Broader, narrower term thesaurus search response support
-* \    Google Tag Manager integration for deep analysis of user pathways and actions
-* \    Audited WCAG 2.0 AA compliance, screen reader ready
-* \    Fully mobile responsive presentation
-* \    Full CMS, with integrated collection level description interpretation in the search
-* \    Guest level shop e-commerce
+* Facet search refinement on indexes and access points
+* Results as an image listing and mosaic gallery
+* Connections to IIIF high resolution and Universal Viewer for images and AV content
+* Reprographic quotation requests, wishlists and document ordering
+* GIS map display of results with historic maps
+* Interactive timeline view of search results
+* User generated comments, stories and discussions against archive records
+* User tagging of records with keywords
+* Broader, narrower term thesaurus search response support
+* Google Tag Manager integration for deep analysis of user pathways and actions
+* Audited WCAG 2.0 AA compliance, screen reader ready
+* Fully mobile responsive presentation
+* Full CMS, with integrated collection level description interpretation in the search
+* Guest level shop e-commerce
 
 Contact us today on info@orangeleaf.com for a no obligation demonstration of our system.
