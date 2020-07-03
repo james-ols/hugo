@@ -22,9 +22,9 @@ values:
     imageUrl: /img/her.jpg
     text: >-
       We help historic environment record officers get the best public access to
-      their records.  We can advise on various open source systems, and produce
-      full text and geospatial search with complex point, line and polygon based
-      responses diplayed on modern and historic Ordnance Survey maps.  We build
-      crowdsource solutions based around MIDAS and CIDOC CRM standards/
+      their records.  We provide advice on Open Source systems, and produce full
+      text and geospatial search with complex point, line and polygon based
+      responses displayed on modern and historic Ordnance Survey maps.  We build
+      crowdsource solutions based around MIDAS and CIDOC CRM standards
 ---
 
