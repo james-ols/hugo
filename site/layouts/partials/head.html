@@ -16,11 +16,19 @@
 	<meta name="theme-color" content="#fff">
 	<!-- We are hiring.  Interested in working at the cutting edge of information technology for the heritage sector? Contact us via Twitter or GitHub and show us what you can do. All recruitment agents will be ignored. -->
 	<!-- Open Graph -->
-	<meta property="og:type" content="business.business"/>
-	<meta property="og:title" content="UK Digital Heritage Consultants Orangeleaf Systems Ltd"/>
-	<meta property='og:description' content="Established since 1998, Orangeleaf Systems Ltd are the UK's leading Digtial Heritage consultancy"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:title" content="{{ .Title }}"/>
+	<meta property='og:description' content="Established since 1998, Orangeleaf Systems Ltd are one of the UK's leading Digital Heritage consultancies. {{ .Description }}"/>
 	<meta property="og:url" content="https://www.orangeleaf.com/"/>
-	<meta property="og:image" content="/img/og-image.jpg"/>
+	{{ if .Params.image }}<meta property="og:image" content="{{ .Params.image }}"/>{{ end }}
+
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@ojleaf" />
+	<meta name="twitter:title" content="{{ .Title }}" />
+	<meta name="twitter:description" content="{{ .Description }}" />
+	{{ if .Params.image }}<meta name="twitter:image" content="{{ .Params.image }}" />{{ end }}
+
+
 	<meta name="description"  content="Shrewsbury Shropshire based web application developers specialising in web applications and web sites for museums and archives and public sector" />
 	<meta name="keywords"  content="shropshire, shrewsbury, web designers, telford, wolverhampton, birmingham web designers, developers, museums, archives, charities, public sector" />
 	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
