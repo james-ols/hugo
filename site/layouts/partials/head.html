@@ -20,13 +20,13 @@
 	<meta property="og:title" content="{{ .Title }}"/>
 	<meta property='og:description' content="Established since 1998, Orangeleaf Systems Ltd are one of the UK's leading Digital Heritage consultancies. {{ .Description }}"/>
 	<meta property="og:url" content="https://www.orangeleaf.com/"/>
-	{{ if .Params.image }}<meta property="og:image" content="{{ .Params.image }}"/>{{ end }}
+	{{ if .Params.image }}<meta property="og:image" content="https://www.orangeleaf.com/{{ .Params.image }}"/>{{ end }}
 
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@ojleaf" />
 	<meta name="twitter:title" content="{{ .Title }}" />
 	<meta name="twitter:description" content="{{ .Description }}" />
-	{{ if .Params.image }}<meta name="twitter:image" content="{{ .Params.image }}" />{{ end }}
+	{{ if .Params.image }}<meta name="twitter:image" content="https://www.orangeleaf.com/{{ .Params.image }}" />{{ end }}
 
 
 	<meta name="description"  content="Shrewsbury Shropshire based web application developers specialising in web applications and web sites for museums and archives and public sector" />
