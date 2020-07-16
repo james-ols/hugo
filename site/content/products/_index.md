@@ -77,7 +77,7 @@ pricing:
     Relationship Management and Council Payment gateway connectors is always
     required.
   plans:
-    - description: 'Smaller collections, upto 5000 records single CMS, standard template'
+    - description: 'Smaller collections upto 5000 records, single CMS, standard template'
       items:
         - 'Search, interactive gallery and timeline'
       plan: Core
