@@ -91,13 +91,15 @@ pricing:
       price_setup: 4250 + VAT
     - description: 'Archive, museum, HER aggregations. County Record Offices'
       items:
+        - Upto 2 million records
+        - archival hierarchy
+        - IIIF digital surrogates
         - >-
-          Upto 2 million records, archival hierarchy, IIIF digital surrogates,
           e-commerce reprographics; Civica and Capita gateways. Can be purchased
-          via G-Cloud
+          via G-Cloud. *typical price; quote required
       plan: County
-      price_pa: 2575 + VAT p/a
-      price_setup: 15500 + VAT
+      price_pa: 2575 + VAT p/a *
+      price_setup: 15500 + VAT *
     - description: Reader and Order Management
       items:
         - >-
