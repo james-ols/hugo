@@ -10,12 +10,11 @@ intro:
   blurbs:
     - image: /img/tma-1024x725.jpg
       text: >
-        CollectionsBase Core.  Single integration with your Collection
+        CollectionsBase Compact.  Single integration with your Collection
         Management System.  Pre-built pipelines available for: Modes, CALM,
         Adlib, Mimsy, EMu, AtoM, MuseumPlus, MicroMusee. Standard layout, with
         your logo, brand identity and colour scheme. Collections search listing,
-        interactive gallery and interactive timeline. WordPress or headless CMS
-        via Hugo / Netlify.
+        interactive gallery and interactive timeline.
     - image: /img/herts-768x584.jpg
       text: >
         CollectionsBase Complete. Single integration from Modes, CALM, Adlib,
@@ -77,12 +76,16 @@ pricing:
     Relationship Management and Council Payment gateway connectors is always
     required.
   plans:
+    - description: 'Single Integration with Modes, CALM, Adlib'
+      plan: Compact
+      price_pa: 675 + VAT
+      price_setup: 3750 + VAT
     - description: 'Larger collections single CMS, bespoke template.'
       items:
         - 'Search, gallery, timeline, maps, events, IIIF digital surrogates'
       plan: Complete
       price_pa: 950 + VAT p/a
-      price_setup: 4250 + VAT
+      price_setup: 4750 + VAT
     - description: 'Archive, museum, HER aggregations. County Record Offices'
       items:
         - Upto 2 million records
