@@ -76,15 +76,11 @@ pricing:
     Relationship Management and Council Payment gateway connectors is always
     required.
   plans:
-    - description: 'Single Integration with Modes, CALM, Adlib'
-      plan: Compact
-      price_pa: 675 + VAT
-      price_setup: 3750 + VAT
-    - description: 'Larger collections single CMS, bespoke template.'
+    - description: 'Single Modes, CALM, Emu CMS with bespoke design.'
       items:
         - 'Search, gallery, timeline, maps, events, IIIF digital surrogates'
       plan: Complete
-      price_pa: 950 + VAT p/a
+      price_pa: 675 + VAT p/a
       price_setup: 4750 + VAT
     - description: 'Archive, museum, HER aggregations. County Record Offices'
       items:
