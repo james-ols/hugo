@@ -1,6 +1,6 @@
 ---
 title: Transatlantic Ties for West Sussex Record Office
-date: 2022-06-11T09:50:36.326Z
+date: 2022-06-06T09:50:36.326Z
 description: >-
   We are pleased to launch a new website for the Transatlantic Ties project, a
   Mellon Foundation funded learning and outreach project which aimed to explore
