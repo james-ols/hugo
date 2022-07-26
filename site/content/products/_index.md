@@ -8,16 +8,9 @@ description: >-
   organisations large and small.
 intro:
   blurbs:
-    - image: /img/tma-1024x725.jpg
-      text: >
-        CollectionsBase Compact.  Single integration with your Collection
-        Management System.  Pre-built pipelines available for: Modes, CALM,
-        Adlib, Mimsy, EMu, AtoM, MuseumPlus, MicroMusee. Standard layout, with
-        your logo, brand identity and colour scheme. Collections search listing,
-        interactive gallery and interactive timeline.
     - image: /img/herts-768x584.jpg
       text: >
-        CollectionsBase Complete. Single integration from Modes, CALM, Adlib,
+        CollectionsBase Standard. Single integration from Modes, CALM, Adlib,
         Mimsy, EMu, AtoM, MuseumPlus, MicroMusee. Bespoke template to match your
         existing website, or alternatively we can provide the complete solution
         for your service. Can include WooCommerce e-commerce to standard
@@ -79,7 +72,7 @@ pricing:
     - description: 'Single Modes, CALM, Emu CMS with bespoke design.'
       items:
         - 'Search, gallery, timeline, maps, events, IIIF digital surrogates'
-      plan: Complete
+      plan: Standard
       price_pa: 675 + VAT p/a
       price_setup: 4750 + VAT
     - description: 'Archive, museum, HER aggregations. County Record Offices'
