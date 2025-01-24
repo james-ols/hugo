@@ -5,7 +5,7 @@ description: >-
   New archives catalogue search and integrated shop for the new Staffordshire History Centre
 image: /img/staffordshire.jpg
 ---
-We are pleased to announce that we’ve delivered a new CollectionsBase catalogue search, search room booking forms and shop for Staffordshire History Centre  <https://www.staffordshirehistory.org.uk>
+We are pleased to announce that we have delivered a new CollectionsBase catalogue search, search room booking forms and shop for Staffordshire History Centre  <https://www.staffordshirehistory.org.uk>
 
 This is phase one, and features:
 
