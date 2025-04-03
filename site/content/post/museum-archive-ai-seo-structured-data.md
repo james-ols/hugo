@@ -1,6 +1,6 @@
 ---
 title: SEO for AI and Museum and Archive AI Structured Data 
-date: 2025-04-03T09:50:36.326Z
+date: 2025-02-07T09:50:36.326Z
 description: >-
   Over the past few months we have been working on a CollectionsBase Museums and Archives platform solution to support search engine optimisation for the AI crawlers and bots of OpenAI, Anthropic and Google.
 image: /img/openai.png
