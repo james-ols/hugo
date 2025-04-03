@@ -1,11 +1,11 @@
 ---
-title: SEO for AI and Museum and Archive AI Structured Data 
+title: SEO for AI for Museums and Archives AI Structured Data 
 date: 2025-03-07T09:50:36.326Z
 description: >-
   Over the past few months we have been working on a CollectionsBase Museums and Archives platform solution to support search engine optimisation for the AI crawlers and bots of OpenAI, Anthropic and Google.
 image: /img/openai.png
 ---
-Our solution comprises two parts: the generation of a specially structured data response that we have discovered that works best from our CollectionsBase API (Application Programming Interface) within a search context, and control of the bots to guide them to this specialised
+Our solution comprises two parts: the generation of a specially structured data response that we have discovered that works best with our CollectionsBase API (Application Programming Interface) within a search context, and control of the bots to guide them to this specialised
 contextual information about the museum object records and archive records.  Rather than block the bots entirely, we are working with them to present structured information for Search Engine Optimisation (SEO) via a load balanced caching
 mechanism that prevents overload of our collections search websites.
 
