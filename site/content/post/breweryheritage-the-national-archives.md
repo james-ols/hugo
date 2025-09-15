@@ -1,6 +1,6 @@
 ---
 title: Brewery Heritage launches with The National Archives
-date: 2025-09-15T10:01:20.484Z
+date: 2025-09-14T10:01:20.484Z
 description: >-
   We are pleased to launch our new website for The National Brewery Heritage Trust : Brewery Heritage with The National Archives Discovery Search.
 image: /img/breweryheritage.jpg
