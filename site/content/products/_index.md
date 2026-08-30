@@ -9,14 +9,14 @@ description: >-
 intro:
   blurbs:
     - image: /img/herts-768x584.jpg
-      text: >
+      text: |
         CollectionsBase Standard. Single integration from Modes, CALM, Adlib,
         Mimsy, EMu, AtoM, MuseumPlus, MicroMusee. Bespoke template to match your
         existing website, or alternatively we can provide the complete solution
         for your service. Can include WooCommerce e-commerce to standard
         gateways, ticketing and historic maps.
     - image: /img/esp-cb7.jpg
-      text: >
+      text: |
         CollectionsBase Aggregation.  
 
         Provisioned for county council record offices and heritage services, typically used to provide
