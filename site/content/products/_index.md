@@ -23,16 +23,17 @@ intro:
         public access to CALM, and in aggregation with Museums using Modes and
         HER services using HBSMR or Arches. Digital surrogate delivery using
         Digital Preservation system connections and IIIF.
-    - image: /img/rom.jpg
-      text: >
+        - image: /img/rom.jpg
+      text: |
         CollectionsBase Complete.
 
         Our flagship product for county record offices and archives services which can be supplied via a monthly subscription.
-        
+
         This product is supplied as an integrated suite of services: Access To Memory (AtoM) Collection Management, CollectionsBase WordPress 7 catalogue search and content management, and CollectionsBase Reader and Order Management.
-        The product is fully hosted, managed and supported by ourselves with full functional isolation: content management, catalogue management and reader and order transaction management on three separate servers, connected by firewalled APIs. 
-        The solution provides Reader ticket registration, advance document ordering, reprographics quotes, PAYG and subscription access to digital surrogates, search room booking and session management. Full end to end document production using our own Android Zebra based barcode application.
-         
+
+        The product is fully hosted, managed and supported by ourselves with full functional isolation: content management, catalogue management and reader and order transaction management on three separate servers, connected by firewalled APIs.
+
+        The solution provides Reader ticket registration, advance document ordering, reprographics quotes, PAYG and subscription access to digital surrogates, search room booking and session management. Full end to end document production using our own Android Zebra based barcode application.         
   heading: The CollectionsBase software suite
   description: >-
     CollectionsBase provides public access to the records of over 100
