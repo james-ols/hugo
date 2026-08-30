@@ -4,11 +4,16 @@
 		<p class="mb4 mw6">{{.description}}</p>
 
 		<div class="flex-ns flex-wrap mhn2-ns mb3">
-			{{ range .blurbs }}
-				<div class="ph2-ns w-50-ns mb4">
-					<img src="{{ .image }}" alt="" class="center db mb3" style="width: 240px">
-					<p>{{ .text }}</p>
-				</div>
+			{{ $count := len .blurbs }}
+			{{ range $index, $blurb := .blurbs }}
+			{{ $isLast := eq (add $index 1) $count }}
+			{{ $isOddTotal := eq (mod $count 2) 1 }}
+			{{ $wideClass := "w-50-ns" }}
+			{{ if and $isLast $isOddTotal }}{{ $wideClass = "w-100-ns" }}{{ end }}
+			<div class="ph2-ns {{ $wideClass }} mb4">
+				<img src="{{ $blurb.image }}" alt="" class="center db mb3" style="width: 240px">
+				<p>{{ $blurb.text }}</p>
+			</div>
 			{{ end }}
 		</div>
 	</div>
