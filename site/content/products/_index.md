@@ -57,7 +57,6 @@ testimonials:
       system is all set up and running smoothly, each partner uploads their data
       on an ‘as and when’ basis so that they are in control of what data goes
       onto the websites and when.
-
 pricing:
   heading: Setup and Annual Prices
   description: >-
