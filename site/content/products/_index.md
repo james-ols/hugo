@@ -10,20 +10,13 @@ intro:
   blurbs:
     - image: /img/herts-768x584.jpg
       text: |
-        CollectionsBase Standard. Single integration from Modes, CALM, Adlib,
-        Mimsy, EMu, AtoM, MuseumPlus, MicroMusee. Bespoke template to match your
-        existing website, or alternatively we can provide the complete solution
-        for your service. Can include WooCommerce e-commerce to standard
-        gateways, ticketing and historic maps.
+        CollectionsBase Standard. Single integration from Modes, CALM, Adlib, Mimsy, EMu, AtoM, MuseumPlus, MicroMusee. Bespoke template to match your existing website, or alternatively we can provide the complete solution for your service. Can include WooCommerce e-commerce to standard gateways, ticketing and historic maps.
     - image: /img/esp-cb7.jpg
       text: |
-        CollectionsBase Aggregation.  
+        CollectionsBase Aggregation.
 
-        Provisioned for county council record offices and heritage services, typically used to provide
-        public access to CALM, and in aggregation with Museums using Modes and
-        HER services using HBSMR or Arches. Digital surrogate delivery using
-        Digital Preservation system connections and IIIF.
-        - image: /img/rom.jpg
+        Provisioned for county council record offices and heritage services, typically used to provide public access to CALM, and in aggregation with Museums using Modes and HER services using HBSMR or Arches. Digital surrogate delivery using Digital Preservation system connections and IIIF.
+    - image: /img/rom.jpg
       text: |
         CollectionsBase Complete.
 
@@ -33,7 +26,7 @@ intro:
 
         The product is fully hosted, managed and supported by ourselves with full functional isolation: content management, catalogue management and reader and order transaction management on three separate servers, connected by firewalled APIs.
 
-        The solution provides Reader ticket registration, advance document ordering, reprographics quotes, PAYG and subscription access to digital surrogates, search room booking and session management. Full end to end document production using our own Android Zebra based barcode application.         
+        The solution provides Reader ticket registration, advance document ordering, reprographics quotes, PAYG and subscription access to digital surrogates, search room booking and session management. Full end to end document production using our own Android Zebra based barcode application.
   heading: The CollectionsBase software suite
   description: >-
     CollectionsBase provides public access to the records of over 100
