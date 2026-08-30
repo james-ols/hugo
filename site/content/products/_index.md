@@ -14,7 +14,7 @@ intro:
         Mimsy, EMu, AtoM, MuseumPlus, MicroMusee. Bespoke template to match your
         existing website, or alternatively we can provide the complete solution
         for your service. Can include WooCommerce e-commerce to standard
-        gateways, Culture24 Events plugin, ticketing and historic maps.
+        gateways, ticketing and historic maps.
     - image: /img/esp-cb7.jpg
       text: >
         CollectionsBase County Aggregation.  
