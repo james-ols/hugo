@@ -11,14 +11,14 @@
 			{{ if and $isLast $isOddTotal (gt $count 1) }}
 			<div class="ph2-ns mb4" style="flex: 0 0 100% !important; width: 100% !important;">
 				<img src="{{ $blurb.image }}" alt="" class="center db mb3" style="width: 100%; max-width: 400px;">
-				<p style="max-width: 42rem; margin-left: auto; margin-right: auto;">
-					{{ $blurb.text | replace "\n" "<br><br>" | safeHTML }}
-				</p>
+				<div style="max-width: 42rem; margin-left: auto; margin-right: auto;">
+					{{ $blurb.text | markdownify }}
+				</div>
 			</div>
 			{{ else }}
 			<div class="ph2-ns w-50-ns mb4">
 				<img src="{{ $blurb.image }}" alt="" class="center db mb3" style="width: 240px">
-				<p>{{ $blurb.text }}</p>
+				<div>{{ $blurb.text | markdownify }}</div>
 			</div>
 			{{ end }}
 			{{ end }}
