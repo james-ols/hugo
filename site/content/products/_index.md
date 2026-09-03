@@ -24,7 +24,7 @@ intro:
 
         This product is supplied as an integrated suite of services: Access To Memory (AtoM) Collection Management, CollectionsBase WordPress 7 catalogue search and content management, and CollectionsBase Reader and Order Management.
 
-        The product is fully hosted, managed and supported by ourselves with full functional isolation: content management, catalogue management and reader and order transaction management on three separate servers, connected by firewalled APIs.
+        The product is fully hosted, managed and supported by ourselves with full functional isolation: content management, catalogue management and reader and order transaction management on separated servers, connected by firewalled APIs, in conjunction with AWS OpenSearch.
 
         The solution provides Reader ticket registration, advance document ordering, reprographics quotes, PAYG and subscription access to digital surrogates, search room booking and session management. Full end to end document production using our own Android Zebra based barcode application.
   heading: The CollectionsBase software suite
