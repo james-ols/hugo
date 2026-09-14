@@ -1,7 +1,7 @@
 ---
-title: "Migrating from Axiell CALM: introducing atom-tool"
-date: 2026-01-14T10:00:00.000Z
-lastmod: 2026-01-14
+title: "Migrating from Axiell CALM"
+date: 2026-09-14T10:00:00.000Z
+lastmod: 2026-09-14
 author: James Grimster
 description: >-
   We announce atom-tool, part of the Orangeleaf CollectionsBase suite: an interactive, iterative CALM to AtoM migration and mapping tool that reduces the burden of moving thirty years of archival cataloguing out of Axiell CALM.
