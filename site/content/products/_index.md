@@ -79,10 +79,10 @@ pricing:
     - description: Complete
       items:
         - >-
-          AtoM Collection Management with free migration from CALM. CollectionsBase Catalogue Search and CMS.
+          AtoM Collection Management System with migration from CALM service. CollectionsBase Catalogue Search and CMS website.
           Search room booking, management, triplicate tickets; Reader
           Registration, quotes and PAYG/subscription
-          access to surrogates. 
+          access to surrogates web application. 
       plan: Complete
       price_pa: Monthly
       price_setup: None
