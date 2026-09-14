@@ -134,7 +134,7 @@ The tool also hugely speeds up the "pre-flight" checks by using AtoM's own valid
 
 ## From consultation to production import
 
-AtoM-tool forms part of both our initial consultation work — defining and building, with version control, the customer mapping for descriptions, accessions and authority — to work toward a **Version 1.0 version-controlled "contract"** between CALM and AtoM. Once this is achieved, we then deploy to AWS containers the per-customer mapping application for the archivists (and any volunteers and helpers at this stage) to produce the AtoM import files. For our county record offices we provide a Staging and Production setup, so that staff can run test imports in Staging before final imports.
+AtoM-tool forms part of both our initial consultation work — defining and building, with version control, the customer mapping for descriptions, accessions and authority — to work toward a **Version 1.0 "contract"** between CALM and AtoM. Once this is achieved, we then deploy to AWS containers the per-customer mapping application for the archivists (and any volunteers and helpers at this stage) to produce the AtoM import files. For our county record offices we provide a Staging and Production setup, so that staff can run test imports in Staging before final imports.
 
 Migrating from CALM isn't simply a case of choosing an alternative Collection Management System: it is at that boundary that thirty years of CALM use by dozens — hundreds in some cases — of people within each archive, some with cataloguing standards and some without, becomes all too apparent.
 
