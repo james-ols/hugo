@@ -94,7 +94,9 @@ howto:
       text: "Validated imports are loaded into the customer's hosted, managed AtoM instance within the Orangeleaf CollectionsBase platform."
 ---
 
-We are announcing a new tool as part of our CollectionsBase suite of applications, the simply named **atom-tool** to assist in CALM migrations.
+James Grimster writes:
+
+> We are announcing a new tool as part of our CollectionsBase suite of applications, the simply named **atom-tool** to assist in CALM migrations.
 
 Developed in partnership with a number of our customers, my team have built a tool that allows me to work interactively and iteratively with CALM DScribe database XML exports from CALM, into the internationally regarded and popular Access To Memory (AtoM) application. We provide AtoM hosted and managed as a SaaS (Software as a Service) part of our CollectionsBase platform. We choose AtoM in order to meet our customers' Business Continuity requirements, and it is a good fit for customers exiting CALM.
 
