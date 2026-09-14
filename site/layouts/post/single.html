@@ -1,15 +1,46 @@
 {{ define "main" }}
 
-  <div class="mw6 center ph3 pv4">
-    <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
-    <div class="flex justify-between grey-3">
-      <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-      <p>Read in {{ .ReadingTime }} minutes</p>
-    </div>
-    <div class="cms mw6">
-      <p>{{ .Description }}</p>
-      {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
-      {{ .Content }}
-    </div>
+<article class="mw6 center ph3 pv4">
+  <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
+  <div class="flex justify-between grey-3">
+    <p>
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+      {{ if ne .Lastmod .Date }}
+      · Updated <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "Jan 2, 2006" }}</time>
+      {{ end }}
+    </p>
+    <p>Read in {{ .ReadingTime }} minutes</p>
   </div>
+  <div class="cms mw6">
+    <p>{{ .Description }}</p>
+    {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+    {{ .Content }}
+
+    {{ with .Params.howto }}
+    <section class="mt4" aria-labelledby="howto-heading">
+      <h2 id="howto-heading" class="f3 b lh-title mb2">{{ .name }}</h2>
+      {{ with .description }}<p>{{ . }}</p>{{ end }}
+      <ol>
+        {{ range .steps }}
+        <li>
+          <strong>{{ .name }}.</strong> {{ .text }}
+        </li>
+        {{ end }}
+      </ol>
+    </section>
+    {{ end }}
+
+    {{ with .Params.faq }}
+    <section class="mt4" aria-labelledby="faq-heading">
+      <h2 id="faq-heading" class="f3 b lh-title mb2">Frequently asked questions</h2>
+      <dl>
+        {{ range . }}
+        <dt class="b mt3">{{ .q }}</dt>
+        <dd class="mb2">{{ .a | markdownify }}</dd>
+        {{ end }}
+      </dl>
+    </section>
+    {{ end }}
+  </div>
+</article>
 {{ end }}

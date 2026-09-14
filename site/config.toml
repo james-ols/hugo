@@ -1,3 +1,33 @@
-baseurl = "/"
-languageCode = "en-us"
-title = "Homepage"
+
+baseURL = "https://www.orangeleaf.com/"
+languageCode = "en-gb"
+title = "Orangeleaf Systems Ltd — UK Digital Heritage Consultants"
+enableRobotsTXT = true
+enableGitInfo = true
+
+[params]
+description = "Established 1998, Orangeleaf Systems Ltd is one of the UK's leading digital heritage consultancies, specialising in archives, museums and archaeology collections systems, CALM migration and AtoM."
+organisation = "Orangeleaf Systems Ltd"
+twitter = "ojleaf"
+logo = "/img/logo.svg"
+defaultImage = "/img/og-image.jpg"
+telephone = "+44-1743-352000"
+streetAddress = "Barkers Chambers, Barker Street"
+addressLocality = "Shrewsbury"
+addressRegion = "Shropshire"
+postalCode = "SY1 1SB"
+addressCountry = "GB"
+foundingDate = "1998"
+vatID = "GB709248328"
+companyNumber = "3648762"
+sameAs = [
+    "https://twitter.com/ojleaf"
+]
+
+[sitemap]
+changefreq = "weekly"
+priority = 0.5
+filename = "sitemap.xml"
+
+[markup.goldmark.renderer]
+unsafe = true

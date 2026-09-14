@@ -1,12 +1,40 @@
 <head>
-	<title>UK Digital Heritage Consultants : Orangeleaf Systems Ltd {{ .Title }}</title>
-	<link rel="stylesheet" href="/css/main.css"/>
-	<script src="/toggle.js"></script>
+	{{- /* --------- computed values --------- */ -}}
+	{{- $base       := strings.TrimRight "/" site.BaseURL -}}
+	{{- $isHome     := .IsHome -}}
+	{{- $title      := cond $isHome site.Title (printf "%s | %s" .Title site.Title) -}}
+	{{- $desc       := or .Description site.Params.description -}}
+	{{- $img        := or .Params.image site.Params.defaultImage -}}
+	{{- $absImg     := printf "%s%s" $base $img -}}
+	{{- $canonical  := .Permalink -}}
+	{{- $dateISO    := .Date.Format "2006-01-02T15:04:05Z07:00" -}}
+	{{- $modISO     := .Lastmod.Format "2006-01-02T15:04:05Z07:00" -}}
+	{{- $ogType     := cond (eq .Section "post") "article" "website" -}}
+	{{- $twitter    := site.Params.twitter -}}
+	{{- $orgId      := printf "%s/#organization" $base -}}
+	{{- $siteId     := printf "%s/#website" $base -}}
+	{{- $logoAbs    := printf "%s%s" $base site.Params.logo -}}
+	{{- $author     := or .Params.author "James Grimster" -}}
+	{{- $keywords   := or .Params.keywords .Params.tags slice -}}
+	{{- $categories := or .Params.categories (slice "Case Study") -}}
+	{{- $rssURL     := "index.xml" | absURL -}}
+
+	<title>{{ $title }}</title>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="{{ $desc }}">
+	{{- with $keywords }}
+	<meta name="keywords" content="{{ delimit . ", " }}">
+	{{- end }}
+	<link rel="canonical" href="{{ $canonical }}">
+	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+	<link rel="stylesheet" href="/css/main.css"/>
+	<script src="/toggle.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
@@ -15,48 +43,198 @@
 	<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#ff4400">
 	<meta name="theme-color" content="#fff">
 
+	<link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ $rssURL }}">
+
 	<script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/a579c73db2f30a3be09aa8d4/script.js"></script>
 
 	<!-- Open Graph -->
-	<meta property="og:type" content="website"/>
-	<meta property="og:title" content="{{ .Title }}"/>
-	<meta property='og:description' content="Established since 1998, Orangeleaf Systems Ltd are one of the UK's leading Digital Heritage consultancies. {{ .Description }}"/>
-	<meta property="og:url" content="https://www.orangeleaf.com/"/>
-	{{ if .Params.image }}<meta property="og:image" content="https://www.orangeleaf.com{{ .Params.image }}"/>{{ end }}
+	<meta property="og:site_name" content="{{ site.Title }}">
+	<meta property="og:type" content="{{ $ogType }}">
+	<meta property="og:title" content="{{ .Title | default site.Title }}">
+	<meta property="og:description" content="{{ $desc }}">
+	<meta property="og:url" content="{{ $canonical }}">
+	<meta property="og:image" content="{{ $absImg }}">
+	<meta property="og:locale" content="en_GB">
+	{{- if eq .Section "post" }}
+	<meta property="article:published_time" content="{{ $dateISO }}">
+	<meta property="article:modified_time" content="{{ $modISO }}">
+	{{- end }}
 
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="@ojleaf" />
-	<meta name="twitter:title" content="{{ .Title }}" />
-	<meta name="twitter:description" content="{{ .Description }}" />
-	{{ if .Params.image }}<meta name="twitter:image" content="https://www.orangeleaf.com{{ .Params.image }}" />{{ end }}
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@{{ $twitter }}">
+	<meta name="twitter:creator" content="@{{ $twitter }}">
+	<meta name="twitter:title" content="{{ .Title | default site.Title }}">
+	<meta name="twitter:description" content="{{ $desc }}">
+	<meta name="twitter:image" content="{{ $absImg }}">
 
+	{{- /* ================================================================
+	Build the JSON-LD graph as a Go data structure, then emit as JSON
+	================================================================ */ -}}
 
-	<meta name="description"  content="Shrewsbury Shropshire based web application developers specialising in web applications and web sites for museums and archives and public sector" />
-	<meta name="keywords"  content="shropshire, shrewsbury, web designers, telford, wolverhampton, birmingham web designers, developers, museums, archives, charities, public sector" />
+	{{- $organization := dict
+	"@type"         "Organization"
+	"@id"           $orgId
+	"name"          site.Params.organisation
+	"alternateName" "Orangeleaf"
+	"url"           (printf "%s/" $base)
+	"logo"          (dict "@type" "ImageObject" "url" $logoAbs)
+	"foundingDate"  site.Params.foundingDate
+	"vatID"         site.Params.vatID
+	"taxID"         site.Params.companyNumber
+	"telephone"     site.Params.telephone
+	"address"       (dict
+	"@type"           "PostalAddress"
+	"streetAddress"   site.Params.streetAddress
+	"addressLocality" site.Params.addressLocality
+	"addressRegion"   site.Params.addressRegion
+	"postalCode"      site.Params.postalCode
+	"addressCountry"  site.Params.addressCountry)
+	"areaServed"    (slice "GB" "IE" "EU")
+	"knowsAbout"    (slice
+	"Archive management systems"
+	"Museum collections management"
+	"Axiell CALM"
+	"Axiell Collections"
+	"Access to Memory (AtoM)"
+	"ISAD(G)" "ISAAR(CPF)" "EAD" "EAC-CPF"
+	"Dublin Core" "SPECTRUM" "IIIF"
+	"Digital preservation"
+	"Metadata standards"
+	"Community archives")
+	"sameAs"        site.Params.sameAs
+	-}}
+
+	{{- $website := dict
+	"@type"     "WebSite"
+	"@id"       $siteId
+	"url"       (printf "%s/" $base)
+	"name"      site.Title
+	"publisher" (dict "@id" $orgId)
+	"inLanguage" "en-GB"
+	-}}
+
+	{{- $graph := slice $organization $website -}}
+
+	{{- /* Per-page node */ -}}
+	{{- if eq .Section "post" -}}
+	{{- $post := dict
+	"@type"            "BlogPosting"
+	"mainEntityOfPage" .Permalink
+	"headline"         .Title
+	"description"      $desc
+	"image"            $absImg
+	"datePublished"    $dateISO
+	"dateModified"     $modISO
+	"author"           (dict
+	"@type"    "Person"
+	"name"     $author
+	"worksFor" (dict "@id" $orgId))
+	"publisher"        (dict "@id" $orgId)
+	"inLanguage"       "en-GB"
+	"wordCount"        .WordCount
+	"articleSection"   $categories
+	"isPartOf"         (dict "@id" $siteId)
+	-}}
+	{{- with $keywords }}{{ $post = merge $post (dict "keywords" (delimit . ", ")) }}{{ end -}}
+	{{- with .Params.about }}{{ $post = merge $post (dict "about" .) }}{{ end -}}
+	{{- with .Params.mentions }}{{ $post = merge $post (dict "mentions" .) }}{{ end -}}
+	{{- $graph = $graph | append $post -}}
+	{{- else -}}
+	{{- $webpage := dict
+	"@type"              "WebPage"
+	"@id"                (printf "%s#webpage" .Permalink)
+	"url"                .Permalink
+	"name"               .Title
+	"description"        $desc
+	"isPartOf"           (dict "@id" $siteId)
+	"primaryImageOfPage" $absImg
+	-}}
+	{{- if $isHome }}{{ $webpage = merge $webpage (dict "about" (dict "@id" $orgId)) }}{{ end -}}
+	{{- $graph = $graph | append $webpage -}}
+	{{- end -}}
+
+	{{- /* Breadcrumbs on non-home pages */ -}}
+	{{- if not $isHome -}}
+	{{- $crumbs := slice (dict "@type" "ListItem" "position" 1 "name" "Home" "item" (printf "%s/" $base)) -}}
+	{{- if .Section -}}
+	{{- $crumbs = $crumbs | append (dict
+	"@type"    "ListItem"
+	"position" 2
+	"name"     (humanize .Section)
+	"item"     (printf "%s/%s/" $base .Section)) -}}
+	{{- end -}}
+	{{- if and (ne .Kind "section") (ne .Kind "home") -}}
+	{{- $crumbs = $crumbs | append (dict
+	"@type"    "ListItem"
+	"position" 3
+	"name"     .Title
+	"item"     .Permalink) -}}
+	{{- end -}}
+	{{- $graph = $graph | append (dict
+	"@type"           "BreadcrumbList"
+	"itemListElement" $crumbs) -}}
+	{{- end -}}
+
+	{{- /* Optional FAQPage from front matter */ -}}
+	{{- with .Params.faq -}}
+	{{- $questions := slice -}}
+	{{- range . -}}
+	{{- $questions = $questions | append (dict
+	"@type" "Question"
+	"name"  .q
+	"acceptedAnswer" (dict "@type" "Answer" "text" .a)) -}}
+	{{- end -}}
+	{{- $graph = $graph | append (dict
+	"@type"      "FAQPage"
+	"mainEntity" $questions) -}}
+	{{- end -}}
+
+	{{- /* Optional HowTo from front matter */ -}}
+	{{- with .Params.howto -}}
+	{{- $steps := slice -}}
+	{{- range $i, $s := .steps -}}
+	{{- $steps = $steps | append (dict
+	"@type"    "HowToStep"
+	"position" (add $i 1)
+	"name"     $s.name
+	"text"     $s.text) -}}
+	{{- end -}}
+	{{- $graph = $graph | append (dict
+	"@type"       "HowTo"
+	"name"        .name
+	"description" .description
+	"step"        $steps) -}}
+	{{- end -}}
+
+	{{- $jsonld := dict "@context" "https://schema.org" "@graph" $graph -}}
+
+	<script type="application/ld+json">
+		{{ $jsonld | jsonify (dict "indent" "  ") | safeJS }}
+	</script>
+
 	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-<!-- Matomo -->
-<script>
-  var _paq = window._paq = window._paq || [];
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//analytics.orangeleaf.com/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '2']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Matomo Code -->
+	<!-- Matomo -->
+	<script>
+		var _paq = window._paq = window._paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//analytics.orangeleaf.com/";
+			_paq.push(['setTrackerUrl', u+'matomo.php']);
+			_paq.push(['setSiteId', '2']);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<!-- End Matomo Code -->
 
-<!-- Clarity -->
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "v7zx51lnl3");
-</script>
-<!-- End Clarity -->
+	<!-- Clarity -->
+	<script type="text/javascript">
+		(function(c,l,a,r,i,t,y){
+			c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+			t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+			y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+		})(window, document, "clarity", "script", "v7zx51lnl3");
+	</script>
+	<!-- End Clarity -->
 </head>
-

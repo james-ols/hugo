@@ -1,4 +1,6 @@
 ---
+title: Legal
+description: "Orangeleaf Systems Ltd legal notices: privacy policy, data protection, accessibility statement, modern slavery statement and company details."
 whoweare:
   heading: Who we are
   text: >-

@@ -1,5 +1,6 @@
 ---
 title: Contact
+description: "Contact Orangeleaf Systems Ltd — digital heritage consultancy in Shrewsbury, Shropshire. Phone 01743 352000 or email us for a demonstration of CollectionsBase, CALM migration or archive metadata advice."
 logo: /img/logo.svg
 contact_entries:
   - heading: Location

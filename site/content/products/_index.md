@@ -1,11 +1,9 @@
 ---
 title: Products
+description: "CollectionsBase and Orangeleaf Sytems's digital heritage products: archive and museum catalogue search, IIIF image delivery, e-commerce, ticketing and archive reader CRM."
 subtitle: 'The Archive, Museum and Archaeology platform'
 image: /img/productsjumbo.jpg
 heading: The CollectionsBase software suite
-description: >-
-  CollectionsBase provides public access to the records of over 100
-  organisations large and small.
 intro:
   blurbs:
     - image: /img/herts-768x584.jpg

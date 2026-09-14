@@ -1,5 +1,6 @@
 ---
 title: Services
+description: "Digital heritage consultancy services: Axiell CALM migration, AtoM hosting and implementation, metadata mapping, standards advice, hosting and bespoke development for UK archives and museums."
 subtitle: Two decades of experience
 image: /img/aboutjumbotron.jpg
 values:
