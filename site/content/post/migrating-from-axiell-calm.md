@@ -5,7 +5,7 @@ lastmod: 2026-01-14
 author: James Grimster
 description: >-
   We announce atom-tool, part of the Orangeleaf CollectionsBase suite: an interactive, iterative CALM to AtoM migration and mapping tool that reduces the burden of moving thirty years of archival cataloguing out of Axiell CALM.
-image: /img/atom-tool-mapping.png
+image: /img/atom-tool-header.png
 categories: [Case Study, Consultancy, Products]
 tags:
   - Axiell CALM
@@ -110,13 +110,21 @@ Migration and mapping can only be done side by side with the client, with test i
 
 ## What atom-tool does
 
+<figure class="fr-ns ml3-ns mv3 tc" style="max-width:240px">
+  <img src="/img/atom-tool-mapping.png" alt="atom-tool mapping visualisation showing CALM field to AtoM ISAD(G) transformations" width="400" height="300" style="max-width:100%;height:auto;display:block" loading="lazy">
+  <figcaption class="f6 grey-3 mt2">atom-tool mapping visualisation</figcaption>
+</figure>
+
 My team have developed a tool to provide both visualisation of the current mapping — for description, accession, deaccession, authority files, relationships and locations — that shows in real time the flow process and custom functions I am constructing as part of the consultation.
 
-![atom-tool mapping visualisation](/img/atom-tool-mapping.png)
+<figure class="fr-ns ml3-ns mv3 tc cf" style="max-width:240px">
+  <img src="/img/atom-tool-coverage.png" alt="atom-tool coverage analysis reporting percentage of CALM fields successfully mapped" width="400" height="300" style="max-width:100%;height:auto;display:block" loading="lazy">
+  <figcaption class="f6 grey-3 mt2">atom-tool coverage analysis</figcaption>
+</figure>
 
 The new tool then provides a **coverage analysis** of the mapping: the holy grail being 100% coverage with no transfer loss of any data in CALM (including all audit, revision history, and internal system identifiers). 100% coverage is hard.
 
-![atom-tool coverage analysis](/img/atom-tool-coverage.png)
+<div class="cf"></div>
 
 The tool also hugely speeds up the "pre-flight" checks by using AtoM's own validations before import is needed, providing a **Go** or **No-Go** before import, to save multiple round trips.
 
