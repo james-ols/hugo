@@ -20,7 +20,7 @@ intro:
       text: |
         **CollectionsBase Complete.**
 
-        Our flagship product for county record offices and archives services which can be supplied via a monthly subscription, and comprising four key components hosted on separate servers.
+        Our flagship product for county record offices and archive services which can be supplied via a monthly subscription, and comprising four key components hosted on separate servers.
 
         <div class="flex-ns items-start mb4">
           <div class="flex-none pr3-ns tc" style="width: 3rem;">
