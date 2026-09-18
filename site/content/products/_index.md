@@ -10,7 +10,7 @@ intro:
       text: |
         **CollectionsBase Standard.**
 
-        Single integration from Modes, CALM, Adlib, Mimsy, EMu, AtoM, MuseumPlus, MicroMusee. Bespoke template to match your existing website, or alternatively we can provide the complete solution for your service. Can include WooCommerce e-commerce to standard gateways, ticketing and historic maps.
+        Single integration from Epexio, Modes, CALM, Adlib, Mimsy, EMu, AtoM, MuseumPlus, MicroMusee. Bespoke template to match your existing website, or alternatively a new design for your service. Includes WooCommerce e-commerce to standard gateways, events manager and our historic OS maps view.
     - image: /img/esp-cb7.jpg
       text: |
         **CollectionsBase Aggregation.**
