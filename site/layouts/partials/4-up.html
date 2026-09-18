@@ -1,24 +1,22 @@
 <div class="bg-off-white pv4">
 	<div class="ph3 mw7 center">
 		<h2 class="f2 b lh-title mb2">{{.heading}}</h2>
-		<p class="mb4 mw6">{{.description}}</p>
+		<p class="mb4">{{.description}}</p>
 
-		<div class="flex-ns flex-wrap mhn2-ns mb3">
+		<div class="mb3">
 			{{ $count := len .blurbs }}
 			{{ range $index, $blurb := .blurbs }}
 			{{ $isLast := eq (add $index 1) $count }}
-			{{ $isOddTotal := eq (mod $count 2) 1 }}
-			{{ if and $isLast $isOddTotal (gt $count 1) }}
-			<div class="ph2-ns mb4" style="flex: 0 0 100% !important; width: 100% !important;">
-				<img src="{{ $blurb.image }}" alt="" class="center db mb3" style="width: 100%; max-width: 400px;">
-				<div style="max-width: 42rem; margin-left: auto; margin-right: auto;">
-					{{ $blurb.text | markdownify }}
-				</div>
+			{{ if $isLast }}
+			<div class="mb4">
+				<div>{{ $blurb.text | markdownify }}</div>
 			</div>
 			{{ else }}
-			<div class="ph2-ns w-50-ns mb4">
-				<img src="{{ $blurb.image }}" alt="" class="center db mb3" style="width: 240px">
-				<div>{{ $blurb.text | markdownify }}</div>
+			<div class="flex-ns items-start mhn2-ns mb4">
+				<div class="ph2-ns flex-auto">{{ $blurb.text | markdownify }}</div>
+				<div class="ph2-ns flex-none">
+					<img src="{{ $blurb.image }}" alt="" class="db" style="width: 200px; max-width: 100%;">
+				</div>
 			</div>
 			{{ end }}
 			{{ end }}
