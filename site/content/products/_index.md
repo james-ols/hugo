@@ -104,7 +104,7 @@ pricing:
     Relationship Management and Council Payment gateway connectors is always
     required.
   plans:
-    - description: 'Single Modes, CALM, Emu CMS with bespoke design.'
+    - description: 'Single Epexio, Modes, CALM, Emu CMS with bespoke design.'
       items:
         - 'Search, gallery, timeline, maps, events, IIIF digital surrogates'
       plan: Standard
