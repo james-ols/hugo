@@ -12,9 +12,9 @@
 				<div>{{ $blurb.text | markdownify }}</div>
 			</div>
 			{{ else }}
-			<div class="flex-ns items-start mhn2-ns mb4">
-				<div class="ph2-ns flex-auto">{{ $blurb.text | markdownify }}</div>
-				<div class="ph2-ns flex-none">
+			<div class="flex-ns items-start mb4">
+				<div class="flex-auto">{{ $blurb.text | markdownify }}</div>
+				<div class="pl3-ns flex-none">
 					<img src="{{ $blurb.image }}" alt="" class="db" style="width: 200px; max-width: 100%;">
 				</div>
 			</div>
