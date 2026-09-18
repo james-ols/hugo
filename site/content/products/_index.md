@@ -26,7 +26,7 @@ intro:
           <div class="flex-none pr3-ns tc" style="width: 3rem;">
             <i class="fa fa-wrench f2 mid-gray" aria-hidden="true"></i>
           </div>
-          <div class="flex-auto">AtoM Tool is a purpose-built migration application from Orangeleaf Systems Ltd that moves archive catalogues from Axiell CALM into Access to Memory (AtoM). It represents over twenty years of our deep experience of DS (Axiell) CALM. We use it to offer a free Data Migration Impact Assessment Report for new and existing customers.</div>
+          <div class="flex-auto">AtoM Tool is a purpose-built migration application from Orangeleaf Systems Ltd that moves archive catalogues from Axiell CALM into Access to Memory (AtoM). It represents over twenty years of our deep experience of DS (Axiell) CALM. We use it to offer a <a href="/contact/" aria-label="Contact us for a free Data Migration Impact Assessment Report">free Data Migration Impact Assessment Report</a> for new and existing customers.</div>
           <div class="pl3-ns flex-none">
             <img src="/img/atom-tool-coverage.png" alt="" class="db" style="width: 200px; max-width: 100%;">
           </div>
@@ -51,7 +51,7 @@ intro:
           </div>
           <div class="flex-auto">
                 <p class="mt0">Search. Our WordPress 7 based catalogue search and content management system.  Full cross-hierarchy retrieval using the very latest semantic text embeddings and vectors, allowing archivists to maintain the ISAD(G) principle of non-repetition. Full facet responses over all Access Points. Using APIs the WordPress is entirely separated from the Collection Management system.  We do not have web content in the archive management system database, and the solution can keep the content team and archive cataloguing team quite separate.</p>
-                <p class="mb0">Over the 17 years of its development, the feature list for our CollectionsBase Search application is vast.  We have unique features including: search results views over image gallery, timeline and historic maps. Rich block editing, embeddable widgets to pull in descriptions from AtoM. Collection Level Descriptions with full SEO and GEO optimisation. Full translation management for Welsh archives. Contact us for the full set of features.</p>
+                <p class="mb0">Over the 17 years of its development, the feature list for our CollectionsBase Search application is vast.  We have unique features including: search results views over image gallery, timeline and historic maps. Rich block editing, embeddable widgets to pull in descriptions from AtoM. Collection Level Descriptions with full SEO and GEO optimisation. Full translation management for Welsh archives. <a href="/contact/">Contact us for the full set of features</a>.</p>
           </div>
           <div class="pl3-ns flex-none">
             <img src="/img/newa.jpg" alt="Fully localised search" class="db" style="width: 200px; max-width: 100%;">
@@ -64,7 +64,7 @@ intro:
           </div>
           <div class="flex-auto">
                 <p class="mt0">ROM.  Our truly unique Reader and Order Management Customer Relationship Management style application. First developed for East Sussex Record Office - The Keep, and in continuous production use since 2012 at a number of county record offices.</p>
-                <p class="mb0">The ROM provides the transactional day to day recording of production for archive search rooms. Document movements, transient locations, Reader Cards, production triplicate tickets, quotation requests and orders are managed here, and not in the Archival Collection Management system.  We believe transactional management on a public facing area should not be done in the archive database. We also have our ROM, with all csutomer interfaces, available in Welsh thanks to our Denbighshire and Flintshire colleagues.</p>
+                <p class="mb0">The ROM provides the transactional day to day recording of production for archive search rooms. Document movements, transient locations, Reader Cards, production triplicate tickets, quotation requests and orders are managed here, and not in the Archival Collection Management system.  We believe transactional management on a public facing area should not be done in the archive database. All customer interfaces of our ROM are available in Welsh thanks to our Denbighshire and Flintshire colleagues.</p>
           </div>
           <div class="pl3-ns flex-none">
             <img src="/img/sa-rom.jpg" alt="Reader Session booking" class="db" style="width: 200px; max-width: 100%;">
