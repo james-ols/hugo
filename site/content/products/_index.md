@@ -64,7 +64,7 @@ intro:
           </div>
           <div class="flex-auto">
                 <p class="mt0">ROM.  Our truly unique Reader and Order Management Customer Relationship Management style application. First developed for East Sussex Record Office - The Keep, and in continuous production use since 2012 at a number of county record offices.</p>
-                <p class="mb0">The ROM provides the transactional day to day recording of production for archive search rooms. Document movements, transient locations, Reader Cards, production triplicate tickets, quotation requests and orders are managed here, and not in the Archival Collection Management system.  We believe transactional management on a public facing area should not be done in the archive database. All customer interfaces of our ROM are available in Welsh thanks to our Denbighshire and Flintshire colleagues.</p>
+                <p class="mb0">The ROM provides the transactional day to day recording of production for archive search rooms. Document movements, transient locations, Reader Cards, production triplicate tickets, quotation requests and orders are managed here, and not in the Archival Collection Management system. All customer interfaces of our ROM are available in Welsh thanks to our Denbighshire and Flintshire colleagues.</p>
           </div>
           <div class="pl3-ns flex-none">
             <img src="/img/sa-rom.jpg" alt="Reader Session booking" class="db" style="width: 200px; max-width: 100%;">
