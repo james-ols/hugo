@@ -20,13 +20,56 @@ intro:
       text: |
         **CollectionsBase Complete.**
 
-        Our flagship product for county record offices and archives services which can be supplied via a monthly subscription.
+        Our flagship product for county record offices and archives services which can be supplied via a monthly subscription, and comprising four key components hosted on separate servers.
 
-        This product is supplied as an integrated suite of services: Access To Memory (AtoM) Collection Management, CollectionsBase WordPress 7 catalogue search and content management, and CollectionsBase Reader and Order Management.
+        <div class="flex-ns items-start mb4">
+          <div class="flex-none pr3-ns tc" style="width: 3rem;">
+            <i class="fa fa-wrench f2 mid-gray" aria-hidden="true"></i>
+          </div>
+          <div class="flex-auto">AtoM Tool is a purpose-built migration application from Orangeleaf Systems Ltd that moves archive catalogues from Axiell CALM into Access to Memory (AtoM). It represents over twenty years of our deep experience of DS (Axiell) CALM. We use it to offer a free Data Migration Impact Assessment Report for new and existing customers.</div>
+          <div class="pl3-ns flex-none">
+            <img src="/img/atom-tool-coverage.png" alt="" class="db" style="width: 200px; max-width: 100%;">
+          </div>
+        </div>
 
-        The product is fully hosted, managed and supported by ourselves with full functional isolation: content management, catalogue management and reader and order transaction management on separated servers, connected by firewalled APIs, in conjunction with AWS OpenSearch.
+        <div class="flex-ns items-start mb4">
+          <div class="flex-none pr3-ns tc" style="width: 3rem;">
+            <i class="fa fa-server f2 mid-gray" aria-hidden="true"></i>
+          </div>
+          <div class="flex-auto">
+                <p class="mt0">AtoM, fully hosted, managed and supported by ourselves. Standards compliant, entirely web browser based archival records management to ISAD(G) and ISAAR. Avoids the vendor lock-in of proprietary software, to meet your Business Continuity requirements. No per seat licencing. Large worldwide community of users.</p>
+                <p class="mb0">AtoM is delivered backed up with a 4 hour RTO and RPO SLA.  We do not provide AtoM as a public facing website, it is only available to your archive service staff.</p>
+          </div>
+          <div class="pl3-ns flex-none">
+            <img src="/img/atom.jpg" alt="" class="db" style="width: 200px; max-width: 100%;">
+          </div>
+        </div>
 
-        The solution provides Reader ticket registration, advance document ordering, reprographics quotes, PAYG and subscription access to digital surrogates, search room booking and session management. Full end to end document production using our own Android Zebra based barcode application.
+        <div class="flex-ns items-start mb4">
+          <div class="flex-none pr3-ns tc" style="width: 3rem;">
+            <i class="fa fa-search f2 mid-gray" aria-hidden="true"></i>
+          </div>
+          <div class="flex-auto">
+                <p class="mt0">Search. Our WordPress 7 based catalogue search and content management system.  Full cross-hierarchy retrieval using the very latest semantic text embeddings and vectors, allowing archivists to maintain the ISAD(G) principle of non-repetition. Full facet responses over all Access Points. Using APIs the WordPress is entirely separated from the Collection Management system.  We do not have web content in the archive management system database, and the solution can keep the content team and archive cataloguing team quite separate.</p>
+                <p class="mb0">Over the 17 years of its development, the feature list for our CollectionsBase Search application is vast.  We have unique features including: search results views over image gallery, timeline and historic maps. Rich block editing, embeddable widgets to pull in descriptions from AtoM. Collection Level Descriptions with full SEO and GEO optimisation. Full translation management for Welsh archives. Contact us for the full set of features.</p>
+          </div>
+          <div class="pl3-ns flex-none">
+            <img src="/img/newa.jpg" alt="Fully localised search" class="db" style="width: 200px; max-width: 100%;">
+          </div>
+        </div>
+
+        <div class="flex-ns items-start mb4">
+          <div class="flex-none pr3-ns tc" style="width: 3rem;">
+            <i class="fa fa-id-card f2 mid-gray" aria-hidden="true"></i>
+          </div>
+          <div class="flex-auto">
+                <p class="mt0">ROM.  Our truly unique Reader and Order Management Customer Relationship Management style application. First developed for East Sussex Record Office - The Keep, and in continuous production use since 2012 at a number of county record offices.</p>
+                <p class="mb0">The ROM provides the transactional day to day recording of production for archive search rooms. Document movements, transient locations, Reader Cards, production triplicate tickets, quotation requests and orders are managed here, and not in the Archival Collection Management system.  We believe transactional management on a public facing area should not be done in the archive database. We also have our ROM, with all csutomer interfaces, available in Welsh thanks to our Denbighshire and Flintshire colleagues.</p>
+          </div>
+          <div class="pl3-ns flex-none">
+            <img src="/img/sa-rom.jpg" alt="Reader Session booking" class="db" style="width: 200px; max-width: 100%;">
+          </div>
+        </div>
   heading: The CollectionsBase software suite
   description: >-
     CollectionsBase provides public access to the records of over 100
@@ -89,4 +132,3 @@ pricing:
       price_pa: Monthly
       price_setup: None
 ---
-
