@@ -7,3 +7,8 @@
 
 [context.deploy-preview]
   command = "yarn build-preview"
+
+[[redirects]]
+  from = "/migration-assessment-thanks/"
+  to   = "/migration-assessment/thanks/"
+  status = 200

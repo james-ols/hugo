@@ -1,0 +1,58 @@
+
+<!-- site/layouts/partials/migration-form.html -->
+<div class="mb4">
+    <h4 class="f3 b lh-title mb3 tc">Request your free Data Migration Impact Assessment Report.</h4>
+
+    <form name="migration-assessment" netlify netlify-honeypot="bot-field" action="/migration-assessment/thanks/">
+        <input type="hidden" name="form-name" value="migration-assessment">
+        <p class="dn">
+            <label>Don't fill this in: <input name="bot-field"></label>
+        </p>
+        <fieldset>
+            <legend>Please enter your details.</legend>
+
+            <div class="flex-l mhn1-l">
+                <div class="ph1-l w-50-l">
+                    <input type="text" id="name" name="name" placeholder="Name" class="w-100 mb2" required>
+                    <label for="name">Name</label>
+                </div>
+                <div class="ph1-l w-50-l">
+                    <input type="email" id="email" name="email" placeholder="Email" class="w-100 mb2" required>
+                    <label for="email">Email</label>
+                </div>
+            </div>
+
+            <div class="flex-l mhn1-l">
+                <div class="ph1-l w-50-l">
+                    <input type="text" id="organisation" name="organisation" placeholder="Organisation / Archive Service" class="w-100 mb2" required>
+                    <label for="organisation">Organisation / Archive Service</label>
+                </div>
+                <div class="ph1-l w-50-l">
+                    <input type="text" id="archon-code" name="archon-code" placeholder="TNA Archon code e.g. GB123" class="w-100 mb2">
+                    <label for="archon-code">TNA Archon code (if known)</label>
+                </div>
+            </div>
+
+            <div class="mb3">
+                <fieldset class="bn pa0 ma0">
+                    <legend class="f6 b mb2">Type of archive</legend>
+                    <div class="flex flex-wrap">
+                        <label class="mr4 mb2"><input type="radio" name="archive-type" value="UK County Record Office" required> UK County Record Office</label>
+                        <label class="mr4 mb2"><input type="radio" name="archive-type" value="Community Archive"> Community Archive</label>
+                        <label class="mr4 mb2"><input type="radio" name="archive-type" value="Charity Archive"> Charity Archive</label>
+                        <label class="mr4 mb2"><input type="radio" name="archive-type" value="Schools Archive"> Schools Archive</label>
+                        <label class="mr4 mb2"><input type="radio" name="archive-type" value="Business Records or Commercial Archive"> Business Records or Commercial Archive</label>
+                        <label class="mr4 mb2"><input type="radio" name="archive-type" value="Other"> Other</label>
+                    </div>
+                </fieldset>
+            </div>
+
+            <textarea id="message" name="message" placeholder="CALM version, collection size, or any other context or questions" rows="6" cols="80" class="w-100"></textarea>
+            <label for="message">Additional context</label>
+        </fieldset>
+
+        <div class="tc">
+            <button type="submit" class="btn w-100 w-auto-ns raise">Request outline DMIA</button>
+        </div>
+    </form>
+</div>
