@@ -9,7 +9,7 @@ values:
     text: >-
       We help archivists from county record offices, business and institution
       archives solve the challenges of public access to catalogued material.  We
-      advise during service improvements and planning for new facilities,
+      advise during [migrations from legacy collection management systems](/migration-assessment/),
       through to the production and supply of integrated end-to-end search room
       and document management and barcode tracking solutions.
   - heading: Museums
