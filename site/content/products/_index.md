@@ -1,5 +1,5 @@
 ---
-title: 'CollectionsBase: Archive, Museum & HER Software Suite | Orangeleaf Systems Ltd'
+title: 'CollectionsBase'
 description: "CollectionsBase by Orangeleaf Systems: digital heritage software and consultancy for archives, museums and HER services. Catalogue search, CALM to AtoM migration, IIIF image delivery, e-commerce, ticketing and archive search room systems."
 subtitle: 'The Archive, Museum and Archaeology platform'
 image: /img/productsjumbo.jpg
