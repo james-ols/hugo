@@ -26,7 +26,7 @@ intro:
           <div class="flex-none pr3-ns tc" style="width: 3rem;">
             <i class="fa fa-wrench f2 mid-gray" aria-hidden="true"></i>
           </div>
-          <div class="flex-auto">AtoM Tool is a purpose-built migration application from Orangeleaf Systems Ltd that moves archive catalogues from Axiell CALM into Access to Memory (AtoM). It represents over twenty years of our deep experience of DS (Axiell) CALM. We use it to offer a <a href="/contact/" aria-label="Contact us for a free Data Migration Impact Assessment Report">free Data Migration Impact Assessment Report</a> for new and existing customers.</div>
+          <div class="flex-auto">AtoM Tool is a purpose-built migration application from Orangeleaf Systems Ltd that moves archive catalogues from Axiell CALM into Access to Memory (AtoM). It represents over twenty years of our deep experience of DS (Axiell) CALM. We use it to offer a <a href="/migration-assessment/" aria-label="Contact us for a free Data Migration Impact Assessment Report">free Data Migration Impact Assessment Report</a> for new and existing customers.</div>
           <div class="pl3-ns flex-none">
             <img src="/img/atom-tool-coverage.png" alt="" class="db" style="width: 200px; max-width: 100%;">
           </div>
