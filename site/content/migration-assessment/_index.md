@@ -5,12 +5,12 @@ description: "Request your free CALM to AtoM Data Migration Impact Assessment Re
 
 ## Free Data Migration Impact Assessment Report
 
-We use our **AtoM Tool** — built on over twenty years of hands-on experience with Axiell CALM — to analyse your archive catalogue and produce a detailed, no-obligation **Data Migration Impact Assessment Report**.
+We use our **AtoM Tool** — built on over twenty years of hands-on experience with Axiell CALM — to analyse your archive catalogue and produce an outline, no-obligation **Data Migration Impact Assessment Report**.
 
-The report covers:
-- Record counts and hierarchy structure
+Your outline report will cover:
+- Hierarchy referential integrity
 - Data quality and completeness analysis on our baseline mapping only
 - Likely migration complexity and timescales
 - Recommended approach to CALM → AtoM migration
 
-Complete the form below and we will be in touch to arrange access and discuss your requirements.
+Complete the form below and we will be in touch. We will require approximately 25000 records across one complete Collection, containing no sensitive records or data as per GDPR / DPA.
