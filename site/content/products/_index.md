@@ -38,7 +38,7 @@ intro:
           </div>
           <div class="flex-auto">
                 <p class="mt0">AtoM, fully hosted, managed and supported by ourselves. Standards compliant, entirely web browser based archival records management to ISAD(G) and ISAAR. Avoids the vendor lock-in of proprietary software, to meet your Business Continuity requirements. No per seat licencing. Large worldwide community of users.</p>
-                <p class="mb0">AtoM is delivered backed up with a 4 hour RTO and RPO SLA.  We do not provide AtoM as a public facing website, it is only available to your archive service staff.</p>
+                <p class="mb0">AtoM is delivered backed up with a 4 hour RTO and 12 hour RPO SLA.  We do not provide AtoM as a public facing website, it is only available to your archive service staff.</p>
           </div>
           <div class="pl3-ns flex-none">
             <img src="/img/atom.jpg" alt="" class="db" style="width: 200px; max-width: 100%;">
