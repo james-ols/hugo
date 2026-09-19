@@ -17,4 +17,4 @@ Your outline report will cover:
   <li>Recommended approach to CALM → AtoM migration</li>
 </ul>
 
-Complete the form below and we will be in touch to arrange access and discuss your requirements.
+Complete the form below and we will be in touch. We will require approximately 25000 records across one complete Collection, containing no sensitive records or data as per GDPR / DPA.
