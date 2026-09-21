@@ -1,6 +1,6 @@
 ---
 title: 'CollectionsBase'
-description: "CollectionsBase by Orangeleaf Systems: digital heritage software and consultancy for archives, museums and HER services. Catalogue search, CALM to AtoM migration, IIIF image delivery, e-commerce, ticketing and archive search room systems."
+description: "CollectionsBase by Orangeleaf Systems: digital heritage software and consultancy for archives, museums and HER services. Alternative options to Axiell CALM and CALMView. Catalogue search, CALM to AtoM migration, managed AtoM hosting, IIIF image delivery, e-commerce, ticketing and archive search room systems."
 subtitle: 'The Archive, Museum and Archaeology platform'
 image: /img/productsjumbo.jpg
 heading: The CollectionsBase software suite
@@ -77,9 +77,7 @@ intro:
 main:
   heading: Product Video
   description: >
-    A short demonstration of catalogue search, Reader registration and search
-    room booking, reprographics quotation request and geocoded archive records
-    on maps.
+    Our customer, North East Wales Archives comprising Denbighshire and Flintshire record offices have kindly allowed us to share their user guidance videos, which also showcase some of the features of CollectionsBase with our ROM.
   image1:
     alt: Full geospatial GIS with archaeology findspots and museum objects
     image: /img/map.jpg
