@@ -6,7 +6,7 @@ lastmod: 2026-09-28T11:00:00.000Z
 author: James Grimster
 description: >-
   Orangeleaf Systems provides fully managed Access to Memory (AtoM) SaaS hosting and specialist migration services for UK archives, local authorities, and heritage institutions transitioning from Axiell CALM. Includes atom-tool mapping, 100% coverage analysis, AWS UK hosting, 4-hour RTO / 12-hour RPO SLAs, and no per-seat licence fees.
-image: /img/atom.jpg
+image: /img/aboutjumbotron.jpg
 categories: [Services, Consultancy, Products]
 tags:
   - Access to Memory
@@ -38,7 +38,7 @@ about:
     operatingSystem: "Cloud / Web-based"
     offers:
       "@type": "Offer"
-      price: "0"
+      price: "Varies"
       priceCurrency: "GBP"
       description: "Open source software provided as fully managed SaaS by Orangeleaf Systems Ltd"
   - "@type": SoftwareApplication
