@@ -152,6 +152,9 @@
 	"primaryImageOfPage" $absImg
 	-}}
 	{{- if $isHome }}{{ $webpage = merge $webpage (dict "about" (dict "@id" $orgId)) }}{{ end -}}
+	{{- with $keywords }}{{ $webpage = merge $webpage (dict "keywords" (delimit . ", ")) }}{{ end -}}
+	{{- with .Params.about }}{{ $webpage = merge $webpage (dict "about" .) }}{{ end -}}
+	{{- with .Params.mentions }}{{ $webpage = merge $webpage (dict "mentions" .) }}{{ end -}}
 	{{- $graph = $graph | append $webpage -}}
 	{{- end -}}
 

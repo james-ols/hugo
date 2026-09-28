@@ -1,0 +1,66 @@
+{{ define "main" }}
+
+{{ if .Params.image }}
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+{{ end }}
+
+<article class="mw7 center ph3 pv4">
+  {{ if not .Params.image }}
+  <h1 class="f2 lh-title b mb2">{{ .Title }}</h1>
+  {{ with .Params.subtitle }}
+  <p class="f4 mid-gray mt0 mb3">{{ . }}</p>
+  {{ end }}
+  {{ end }}
+
+  <div class="flex justify-between grey-3 f6 pb3 mb3 bb b--light-gray">
+    <p class="mv0">
+      <a href="/services/" class="link grey-3 hover-primary">Services</a> &rsaquo; {{ .Title }}
+    </p>
+    <p class="mv0">Read in {{ .ReadingTime }} minutes</p>
+  </div>
+
+  <div class="cms">
+    {{ if .Description }}
+    <p class="f4 lh-copy mid-gray mb4">{{ .Description }}</p>
+    {{ end }}
+
+    {{ .Content }}
+
+    {{ with .Params.howto }}
+    <section class="mt4 pv3 bt b--light-gray" aria-labelledby="howto-heading">
+      <h2 id="howto-heading" class="f3 b lh-title mb2">{{ .name }}</h2>
+      {{ with .description }}<p class="mid-gray mb3">{{ . }}</p>{{ end }}
+      <ol class="lh-copy">
+        {{ range .steps }}
+        <li class="mb3">
+          <strong>{{ .name }}:</strong> {{ .text }}
+        </li>
+        {{ end }}
+      </ol>
+    </section>
+    {{ end }}
+
+    {{ with .Params.faq }}
+    <section class="mt4 pv3 bt b--light-gray" aria-labelledby="faq-heading">
+      <h2 id="faq-heading" class="f2 b lh-title mb3 primary">Frequently Asked Questions</h2>
+      <dl class="lh-copy">
+        {{ range . }}
+        <dt class="f4 b mt4 mb2 primary">{{ .q }}</dt>
+        <dd class="mb3 ml0 pl3 bl bw2 b--primary-light">{{ .a | markdownify }}</dd>
+        {{ end }}
+      </dl>
+    </section>
+    {{ end }}
+
+    <div class="mt5 pa4 bg-grey-1 br2 tc">
+      <h3 class="f3 b lh-title mb2">Planning a migration from Axiell CALM to AtoM?</h3>
+      <p class="mb3">Contact Orangeleaf Systems for expert consultation, custom mapping, and a live demonstration of our Managed AtoM SaaS platform.</p>
+      <div class="flex-ns justify-center items-center">
+        <a href="/migration-assessment/" class="btn raise mr2-ns mb2 mb0-ns">Request Migration Assessment</a>
+        <a href="/contact/" class="btn raise bg-white primary ml2-ns">Contact Us</a>
+      </div>
+    </div>
+  </div>
+</article>
+
+{{ end }}
