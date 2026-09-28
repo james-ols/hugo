@@ -1,5 +1,5 @@
 ---
-title: "Managed Access to Memory (AtoM) Software as a Service"
+title: "Access to Memory (AtoM) Software as a Service"
 subtitle: "UK-hosted Managed AtoM Software-as-a-Service with migration tooling"
 date: 2026-09-28T11:00:00.000Z
 lastmod: 2026-09-28T11:00:00.000Z
