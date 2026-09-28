@@ -133,7 +133,7 @@ Using **atom-tool**, our team works side by side with your archivists to map eve
 
 ### 2. Real-Time Coverage Analysis
 atom-tool reports coverage percentages continuously as mapping rules are defined. Our target is always **100% coverage with zero transfer loss**. Non-ISAD fields are preserved either by:
-- **Folding into ISAD(G) ** Encoded using our structured open markdown notation so that legacy fields (e.g. A2A tags or project audit data) remain readable, searchable, and fully extractable back into XML.
+- **Folding into ISAD(G)** Encoded using our structured open markdown notation so that legacy fields (e.g. A2A tags or project audit data) remain readable, searchable, and fully extractable back into XML.
 - **Promoting to AtoM ExtendedFields:** Fields carrying significant curatorial value (such as geospatial coordinates, specific local taxonomies, or accession details) are promoted into our AtoM ExtendedFields using our AtoM plugin so they remain first-class structured entities.
 
 ### 3. Pre-Flight Validation & Zero-Failure Imports
