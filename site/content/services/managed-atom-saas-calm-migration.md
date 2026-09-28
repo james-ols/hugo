@@ -1,6 +1,6 @@
 ---
 title: "Managed Access to Memory (AtoM) Software as a Service"
-subtitle: "UK-hosted Managed AtoM Software-as-a-Service, zero-data-loss CALM migration tooling, and expert heritage consultancy"
+subtitle: "UK-hosted Managed AtoM Software-as-a-Service with migration tooling"
 date: 2026-09-28T11:00:00.000Z
 lastmod: 2026-09-28T11:00:00.000Z
 author: James Grimster
