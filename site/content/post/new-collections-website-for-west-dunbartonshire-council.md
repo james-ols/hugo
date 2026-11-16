@@ -57,7 +57,7 @@ James Grimster writes:
 
 > Today we are delighted to launch the new **Collections Catalogue** for West Dunbartonshire Council, built on our CollectionsBase platform.
 
-You can explore the new catalogue now at [www.westdunbartonhistory.org.uk/collections](https://www.westdunbartonhistory.org.uk/collections/).
+You can explore the new catalogue now at [www.westdunbartonhistory.org.uk](https://www.westdunbartonhistory.org.uk/).
 
 ## The Singer Sewing Machine Collection and Archive
 
